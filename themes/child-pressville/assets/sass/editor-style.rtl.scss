@@ -1,0 +1,247 @@
+body .editor-styles-wrapper {
+
+/* -----------------------------------------------------------------------------
+
+	1. GENERAL
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		TYPOGRAPHY
+	------------------------------------------------------------------------- */
+
+	/* BLOCKQUOTE */
+	blockquote { padding-left: 0; padding-right: 30px;}
+
+	/* LIST */
+	ul { padding-left: 0; padding-right: 20px; }
+	ol { padding-left: 0; padding-right: 20px; }
+	ul ul, ol ol,
+	ul ol, ol ul { margin-left: 0; margin-right: 30px; }
+
+	/* TABLE */
+	th { text-align: right; }
+
+	/* -------------------------------------------------------------------------
+		UTILITY CLASSES
+	------------------------------------------------------------------------- */
+
+    /* Default WP gallery */
+	.gallery-item { float: right; }
+	.gallery-columns-1 .gallery-item { float: none; }
+	.gallery-columns-2 .gallery-item:nth-child(2n+1),
+	.gallery-columns-3 .gallery-item:nth-child(3n+1),
+	.gallery-columns-4 .gallery-item:nth-child(4n+1),
+	.gallery-columns-5 .gallery-item:nth-child(5n+1),
+	.gallery-columns-6 .gallery-item:nth-child(6n+1),
+	.gallery-columns-7 .gallery-item:nth-child(7n+1),
+	.gallery-columns-8 .gallery-item:nth-child(8n+1),
+	.gallery-columns-9 .gallery-item:nth-child(9n+1) { clear: right; }
+
+
+/* -----------------------------------------------------------------------------
+
+    2. COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGE
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { padding-left: 30px; padding-right: 60px; }
+	.c-alert-message:before { left: auto; right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		ARROW BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-arrow-button__icon { left: auto; right: 0; }
+	.c-arrow-button__icon--left:before { content: '\e903'; }
+	.c-arrow-button__icon--right:before { content: '\e902'; }
+	.c-arrow-button:active .c-arrow-button__icon--left { right: -2px; }
+	.c-arrow-button:active .c-arrow-button__icon--right { right: 2px; }
+
+	/* -------------------------------------------------------------------------
+		SEARCH FORM
+	------------------------------------------------------------------------- */
+
+	.c-search-form__input { padding-left: 60px; padding-right: 15px; }
+	.c-search-form__button { right: auto; left: 10px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    3. SIDEBAR
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		WIDGETS
+	------------------------------------------------------------------------- */
+
+	/* LSVR Pressvile Weather */
+	.lsvr-pressville-weather-widget__time-title { float: right; }
+	.lsvr-pressville-weather-widget__time-value { float: left; text-align: left; }
+	.lsvr-pressville-weather-widget__weather-item-labels { float: right; }
+	.lsvr-pressville-weather-widget__weather-item-values { float: left; text-align: left; }
+	.lsvr-pressville-weather-widget__weather-item-icon { left: 60px; right: auto; }
+
+	/* Definition list */
+	.lsvr-definition-list-widget__item-title { float: right; padding-right: 0; padding-left: 10px; }
+	.lsvr-definition-list-widget__item-text { float: left; padding-left: 0; padding-right: 10px; text-align: left; }
+
+	/* LSVR Posts */
+	.lsvr-post-list-widget__item--has-thumb .lsvr-post-list-widget__item-inner { padding-left: 0; padding-right: 115px; }
+	.lsvr-post-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* Category widget */
+	.lsvr_listing-categories-widget ul ul,
+	.lsvr_event-categories-widget ul ul,
+	.lsvr_event-locations-widget ul ul,
+	.lsvr_gallery-categories-widget ul ul,
+	.lsvr_document-categories-widget ul ul,
+	.lsvr_person-categories-widget ul ul { margin-left: 0; margin-right: 20px; }
+
+	/* LSVR Directory */
+	.lsvr_listing-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_listing-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* LSVR Events */
+	.lsvr_event-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_event-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* LSVR Event Calendar */
+	.lsvr_event-calendar-widget__weekday { float: right; text-align: left; }
+	.lsvr_event-calendar-widget__nav-btn--prev { left: auto; right: 0; }
+	.lsvr_event-calendar-widget__nav-btn--prev:active { left: auto; right: -2px; }
+	.lsvr_event-calendar-widget__nav-btn--prev > .lsvr_event-calendar-widget__nav-btn-icon:before { content: '\f054'; }
+	.lsvr_event-calendar-widget__nav-btn--next { right: auto; left: 0; }
+	.lsvr_event-calendar-widget__nav-btn--next:active { right: auto; left: -2px; }
+	.lsvr_event-calendar-widget__nav-btn--next > .lsvr_event-calendar-widget__nav-btn-icon:before { content: '\f053'; }
+	.lsvr_event-calendar-widget__day-list-wrapper .c-spinner { left: auto; right: 50%; margin-left: 0; margin-right: -15px; }
+	.lsvr_event-calendar-widget__day { float: right; }
+	.lsvr_event-calendar-widget__day:nth-child( 7n+1 ) { clear: right; }
+	.lsvr_event-calendar-widget__day-cell { text-align: left; }
+	.lsvr_event-calendar-widget__day--has-events > .lsvr_event-calendar-widget__day-cell:after { right: auto; left: 2px; }
+
+	/* LSVR Galleries */
+	.lsvr_gallery-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_gallery-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* LSVR Documents */
+	.lsvr_document-list-widget__item-date { padding-right: 0; padding-left: 5px; }
+	.lsvr_document-list-widget__item-date:after { right: auto; left: 0; }
+
+	/* LSVR Document Attachments */
+	.lsvr_document-attachments-widget__item { padding-left: 0; padding-right: 35px; }
+	.lsvr_document-attachments-widget__item-icon { left: auto; right: 0; }
+
+	/* LSVR Featured Document */
+	.lsvr_document-featured-widget__attachments:before { left: auto; right: 0; }
+	.lsvr_document-featured-widget__attachment { padding-left: 0; padding-right: 35px; }
+	.lsvr_document-featured-widget__attachment-icon { left: auto; right: 0; }
+	.lsvr_document-featured-widget__attachment-link { padding-right: 0; padding-left: 15px; }
+
+	/* LSVR People */
+	.lsvr_person-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_person-list-widget__item-thumb { left: auto; right: 0; }
+	.lsvr_person-list-widget__item-social-icon { left: auto; right: 0; }
+
+	/* LSVR Featured Person */
+	.lsvr_person-featured-widget__social-icon { left: auto; right: 0; }
+
+	/* Calendar */
+	.widget_calendar #prev { text-align: right; }
+	.widget_calendar #next { text-align: left; }
+
+	/* Categories */
+	.widget_categories ul ul { margin-left: 0; margin-right: 30px; }
+
+	/* Custom menu */
+	.widget_nav_menu .menu { margin-left: 0; margin-right: -15px; }
+	.widget_nav_menu .menu > li > .sub-menu,
+	.widget_nav_menu .menu > li > .sub-menu > li > .sub-menu,
+	.widget_nav_menu .menu > li > .sub-menu > li > .sub-menu > li > .sub-menu { margin-left: 0; margin-right: 30px; }
+	.widget_nav_menu .menu > li > .sub-menu > li > .sub-menu > li > .sub-menu ul { margin-left: 0; margin-right: 5px; }
+	.widget_nav_menu a { padding-left: 30px; padding-right: 15px; }
+
+	/* Pages */
+	.widget_pages ul ul { margin-left: 0; margin-right: 30px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    4. ELEMENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		POST GRID
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-post-grid__icon { left: auto; right: -50px; }
+	.lsvr-pressville-post-grid__post-badge { left: auto; right: 15px; }
+	.lsvr-pressville-post-grid__list-button--prev { left: auto; right: -30px; }
+	.lsvr-pressville-post-grid__list-button--next { right: auto; left: -30px; }
+	.lsvr-pressville-post-grid__post-overlay-link { left: auto; right: 0; }
+
+		/* Title on the left layout */
+		@media ( min-width: 1200px ) {
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__header { float: right; }
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--prev { left: auto; right: -15px; }
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--next { right: auto; left: -15px; }
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-wrapper { float: right; }
+		}
+
+	/* -------------------------------------------------------------------------
+		SIDEBAR
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-sidebar__grid > .widget { float: right; }
+	.lsvr-pressville-sidebar__grid--1-cols > .widget { float: none; }
+	.lsvr-pressville-sidebar__grid--2-cols > .widget:nth-child( 2n+1 ),
+	.lsvr-pressville-sidebar__grid--3-cols > .widget:nth-child( 3n+1 ),
+	.lsvr-pressville-sidebar__grid--4-cols > .widget:nth-child( 4n+1 ) { clear: right; }
+
+	/* -------------------------------------------------------------------------
+		SITEMAP
+	------------------------------------------------------------------------- */
+
+	/* Level 1 */
+	.lsvr-pressville-sitemap__item--level-0 { float: right; }
+	.lsvr-pressville-sitemap__nav--1-cols .lsvr-pressville-sitemap__item--level-0 { float: none; }
+	.lsvr-pressville-sitemap__nav--2-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 2n+1 ),
+	.lsvr-pressville-sitemap__nav--3-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 3n+1 ),
+	.lsvr-pressville-sitemap__nav--4-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 4n+1 ) { clear: right; }
+
+	/* Level 2 */
+	.lsvr-pressville-sitemap__toggle { right: auto; left: 5px; }
+	.lsvr-pressville-sitemap__toggle-icon:before { left: auto; right: 0; }
+
+	/* Level 3 */
+	.lsvr-pressville-sitemap__item-link--level-2 { padding-left: 15px; padding-right: 30px; }
+
+	/* Level 4 */
+	.lsvr-pressville-sitemap__item-link--level-3 { padding-left: 15px; padding-right: 60px; }
+
+	/* -------------------------------------------------------------------------
+		LSVR ELEMENTS
+	------------------------------------------------------------------------- */
+
+	/* Alert message */
+	.lsvr-alert-message { padding-left: 20px; padding-right: 50px; }
+    .lsvr-alert-message:before { left: auto; right: 20px; }
+
+    /* CTA */
+    .lsvr-cta--has-button .lsvr-cta__inner { padding-right: 0; padding-left: 200px; }
+    .lsvr-cta__button { right: auto; left: 0; }
+
+    /* Feature */
+    .lsvr-feature--has-icon .lsvr-feature__inner { padding-left: 0; padding-right: 60px; }
+    .lsvr-feature__icon { left: auto; right: 0; }
+
+    /* Progress bar */
+    .lsvr-progress-bar__bar-label { right: auto; left: 10px; }
+
+} // Close .editor-styles-wrapper

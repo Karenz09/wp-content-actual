@@ -1,0 +1,805 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Pressville Theme Toolkit\n"
+"POT-Creation-Date: 2020-09-02 11:07+0200\n"
+"PO-Revision-Date: 2016-05-09 11:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: LSVRthemes\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/ajax-weather-widget.php:17
+msgid "You do not have permission to access this data"
+msgstr ""
+
+#: ../inc/ajax-weather-widget.php:101
+msgid "No response"
+msgstr ""
+
+#: ../inc/ajax-weather-widget.php:105
+msgid "Missing data"
+msgstr ""
+
+#: ../inc/blocks-config.php:11
+msgid "Pressville"
+msgstr ""
+
+#: ../inc/blocks-config.php:100
+msgid "Pressville Directory"
+msgstr ""
+
+#: ../inc/blocks-config.php:101
+msgid "List of Listings"
+msgstr ""
+
+#: ../inc/blocks-config.php:104 ../inc/blocks-config.php:118
+#: ../inc/blocks-config.php:132 ../inc/blocks-config.php:146
+#: ../inc/blocks-config.php:160 ../inc/blocks-config.php:174
+#: ../inc/blocks-config.php:188
+msgid "Settings"
+msgstr ""
+
+#: ../inc/blocks-config.php:114
+msgid "Pressville Events"
+msgstr ""
+
+#: ../inc/blocks-config.php:115
+msgid "List of Events"
+msgstr ""
+
+#: ../inc/blocks-config.php:128
+msgid "Pressville Galleries"
+msgstr ""
+
+#: ../inc/blocks-config.php:129
+msgid "List of Galleries"
+msgstr ""
+
+#: ../inc/blocks-config.php:142
+msgid "Pressville Posts"
+msgstr ""
+
+#: ../inc/blocks-config.php:143
+msgid "List of Posts"
+msgstr ""
+
+#: ../inc/blocks-config.php:156
+msgid "Pressville Sidebar"
+msgstr ""
+
+#: ../inc/blocks-config.php:157
+msgid "Sidebar with widgets"
+msgstr ""
+
+#: ../inc/blocks-config.php:170
+msgid "Pressville Sitemap"
+msgstr ""
+
+#: ../inc/blocks-config.php:171
+msgid "Custom menu"
+msgstr ""
+
+#: ../inc/blocks-config.php:184
+msgid "Pressville Weather Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:185
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:17
+msgid "Weather forecast"
+msgstr ""
+
+#: ../inc/classes/lsvr-pressville-sitemap-walker.php:13
+#: ../templates/shortcodes/pressville-sitemap.php:25
+msgid "Expand submenu"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:55
+msgid "Top Margin"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:56
+msgid "Add top margin to this element."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:58
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:73
+msgid "Disable"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:59
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:74
+msgid "Small"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:60
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:75
+msgid "Medium"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:70
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:71
+msgid "Add bottom margin to this element."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:85
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:303
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:247
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:286
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:252
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:115
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:124
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:178
+msgid "Unique ID"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-container.php:86
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:304
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:248
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:287
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:253
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:116
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:125
+msgid "You can use this ID to style this specific element with custom CSS, for example."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:172
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:144
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:167
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:149
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:73
+msgid "Title"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:173
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:74
+msgid "Title of this section."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:174
+msgid "Directory"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:182
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:153
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:176
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:158
+msgid "Subtitle"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:183
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:154
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:159
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:170
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:191
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:162
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:184
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:167
+msgid "Icon"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:192
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:163
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:185
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:168
+msgid "Class of the icon which will be displayed in element title. Check out the documentation to learn more about icons. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:202
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:173
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:194
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:178
+#: ../templates/shortcodes/pressville-directory.php:91
+msgid "Category"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:203
+msgid "Display listings from specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:211
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:182
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:203
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:187
+msgid "More Button Label"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:212
+msgid "Link to directory archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:213
+msgid "More Listings"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:221
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:192
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:213
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:197
+msgid "Layout"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:222
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:193
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:214
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:198
+msgid "Choose the layout of this element. Please note that the Title in the Background layout does not display the subtitle and icon on desktops and all layouts are displayed as Title on the Top on small devices."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:224
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:195
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:216
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:200
+msgid "Title on the Top"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:225
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:196
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:217
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:201
+msgid "Title on the Left"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:226
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:197
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:218
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:202
+msgid "Title in the Background"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:236
+msgid "Number of Listings"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:237
+msgid "How many listings should be displayed."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:238
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:209
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:230
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:214
+msgid "All"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:247
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:239
+msgid "Order"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:248
+msgid "Order of listing posts."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:250
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:242
+msgid "Default"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:251
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:243
+msgid "By date, newest first"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:252
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:244
+msgid "By date, oldest first"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:253
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:245
+msgid "By title, ascending"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:254
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:246
+msgid "By title, descending"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:255
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:247
+msgid "Random"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:265
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:218
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:257
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:223
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:95
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:113
+msgid "Number of Columns"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:266
+msgid "How many columns should be used to display listings."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:276
+msgid "Show Category"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:277
+msgid "Show badge with listing category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:285
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:229
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:268
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:234
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:106
+msgid "Darken Background"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:286
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:230
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:269
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:235
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:107
+msgid "Darken the background color of this element."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:294
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:238
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:277
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:243
+msgid "Enable Slider"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-directory.php:295
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:239
+msgid "Display listings as a slider."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:145
+msgid "Upcoming Events"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:174
+msgid "Display events from a specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:183
+msgid "Link to events archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:184
+msgid "More Events"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:207
+msgid "Number of Events"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:208
+msgid "How many events should be displayed."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-events.php:219
+msgid "How many columns should be used to display events."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:168
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:195
+msgid "Display galleries from a specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:204
+msgid "Link to gallery archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:205
+msgid "More Galleries"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:228
+msgid "Number of Galleries"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:229
+msgid "How many galleries should be displayed."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:240
+msgid "Order of gallery posts."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:258
+msgid "How many columns should be used to display galleries."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-galleries.php:278
+msgid "Display galleries as a slider."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:150
+msgid "Latest News"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:179
+msgid "Display posts from a specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:188
+msgid "Link to post archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:189
+msgid "More News"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:212
+msgid "Number of Posts"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:213
+msgid "How many posts should be displayed."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:224
+msgid "How many columns should be used to display posts."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-posts.php:244
+msgid "Display posts as a slider."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:84
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:85
+msgid "Choose which sidebar will be used to create this section. You can manage custom sidebars under Customizer / Custom Sidebars and populate them with widgets under Appearance / Widgets."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sidebar.php:96
+msgid "How many columns should be used to display the widgets."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:94
+msgid "Menu"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:95
+msgid "Choose which menu will be used to create the sitemap. You can manage menus under Appearance / Menus."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:104
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:105
+msgid "Optimal resolution is about 2000x1600px or more."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-sitemap.php:114
+msgid "How many columns should be used to display the sitemap."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:75
+msgid "Weather Forecast"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:83
+msgid "Address"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:84
+msgid "For example: stowe,us. You can search for your location on OpenWeatherMap.org to see if it is in the database. Do not forget to insert your OpenWeatherMap.org API key under Appearance / Customize / Misc."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:92
+msgid "Latitude"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:93
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:102
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:36
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:41
+msgid "Use if you are unable to get your local weather using just the address."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:101
+msgid "Longitude"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:110
+msgid "Forecast Length"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:111
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:46
+msgid "How many days of forecast will be displayed."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:113
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:48
+msgid "No forecast"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:114
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:49
+msgid "1 day"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:115
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:50
+msgid "2 days"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:116
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:51
+msgid "3 days"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:126
+msgid "Units Format"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:128
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:59
+msgid "Metric"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:129
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:60
+msgid "Imperial"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:139
+msgid "Update Interval"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:140
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:67
+msgid "How often should be weather data pulled from openweathermap.org."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:142
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:69
+msgid "Every 10 minutes"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:143
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:70
+msgid "Every 30 minutes"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:144
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:71
+msgid "Every hour"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:145
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:72
+msgid "Every 3 hours"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:146
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:73
+msgid "Every 12 hours"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:147
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:74
+msgid "Every 24 hours"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:148
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:75
+msgid "On each page load (not recommended)"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:158
+msgid "Display Local Time"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:159
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:81
+msgid "You can change your Timezone and Time Format under Settings / General."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:168
+msgid "Bottom Text"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:169
+#: ../inc/classes/shortcodes/lsvr-shortcode-pressville-weather-widget.php:179
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:87
+msgid "Custom text which will be displayed at the bottom of the widget content."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:16
+msgid "Pressville Weather"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:21
+msgid "Please insert your OpenWeatherMap.org API Key under Appearance / Customizer / Misc. Also, don't forget to set your basic locale settings under Settings / General (especially Timezone)."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:24
+msgid "Title:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:26
+msgid "Weather"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:29
+msgid "Address:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:31
+msgid "For example: \"stowe,us\". You can search for your location on openweathermap.org to see if it's in the database."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:34
+msgid "Latitude:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:39
+msgid "Longitude:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:44
+msgid "Forecast Length:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:56
+msgid "Units Format:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:65
+msgid "Update Interval:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:80
+msgid "Show Local Time"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-pressville-weather.php:86
+msgid "Bottom Text:"
+msgstr ""
+
+#: ../inc/core-functions.php:88
+#, php-format
+msgid "Custom Sidebar %d"
+msgstr ""
+
+#: ../inc/core-functions.php:106
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../inc/frontend-functions.php:66
+msgid "All-day event"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-directory.php:92
+#: ../templates/shortcodes/pressville-galleries.php:86
+#: ../templates/shortcodes/pressville-posts.php:85
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-directory.php:98
+#: ../templates/shortcodes/pressville-events.php:99
+#: ../templates/shortcodes/pressville-galleries.php:94
+#: ../templates/shortcodes/pressville-posts.php:94
+msgid "More"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-directory.php:114
+#: ../templates/shortcodes/pressville-events.php:115
+#: ../templates/shortcodes/pressville-galleries.php:110
+#: ../templates/shortcodes/pressville-posts.php:110
+msgid "Previous"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-directory.php:119
+#: ../templates/shortcodes/pressville-events.php:120
+#: ../templates/shortcodes/pressville-galleries.php:115
+#: ../templates/shortcodes/pressville-posts.php:115
+msgid "Next"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-directory.php:129
+#: ../templates/shortcodes/pressville-galleries.php:125
+#: ../templates/shortcodes/pressville-posts.php:125
+msgid "There are no posts"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-events.php:86
+msgid "Event Time"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-events.php:86
+#, php-format
+msgid "%s - %s"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-events.php:90
+msgid "Event Location"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-events.php:90
+#, php-format
+msgid "at %s"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-events.php:152
+msgid "There are no events"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-galleries.php:89
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/shortcodes/pressville-sitemap.php:26
+msgid "Collapse submenu"
+msgstr ""
+
+#: ../templates/shortcodes/pressville-sitemap.php:41
+msgid "Please choose which menu will be used to create this sitemap."
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:12
+msgid "Local Time"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:36
+msgid "Today"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:46
+#: ../templates/widgets/pressville-weather.php:74
+msgid "Temperature"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:47
+#: ../templates/widgets/pressville-weather.php:75
+msgid "&deg;C"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:47
+#: ../templates/widgets/pressville-weather.php:75
+msgid "&deg;F"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:50
+#: ../templates/widgets/pressville-weather.php:78
+msgid "Wind speed"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:51
+#: ../templates/widgets/pressville-weather.php:79
+msgid "m/s"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:51
+#: ../templates/widgets/pressville-weather.php:79
+msgid "m/h"
+msgstr ""
+
+#: ../templates/widgets/pressville-weather.php:94
+msgid "Weather forecast can be displayed on front-end only."
+msgstr ""

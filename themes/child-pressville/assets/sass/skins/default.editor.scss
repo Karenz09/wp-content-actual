@@ -1,0 +1,397 @@
+/* -----------------------------------------------------------------------------
+
+	TABLE OF CONTENTS
+
+	1. General
+	2. Components
+	3. Sidebar
+	4. Elements
+	5. Editor
+
+----------------------------------------------------------------------------- */
+
+body .editor-styles-wrapper {
+
+/* -----------------------------------------------------------------------------
+
+    1. GENERAL
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		COLORS
+	-------------------------------------------------------------------------- */
+
+	// GENERAL
+	$body-font: #545e69;
+	$body-link: #2d93c5;
+
+	// ACCENT
+	$accent1: #cd4335; // main accent color
+	$accent2: #2d93c5; // secondary accent color
+
+	// GRAY
+	$xx-soft-gray: #f6f5f5;
+	$x-soft-gray: #e1e7ec;
+	$soft-gray: #ccd5db;
+	$gray: #8a949b;
+	$dark-gray: #1e2427;
+
+	// HEADER
+	$header-titlebar-font: #FFF;
+
+	// FOOTER
+	$footer-bg: #1e2427;
+	$footer-font: #8a949b;
+	$footer-link: #e1e7ec;
+	$footer-widget-title: #FFF;
+	$footer-social-font: #FFF;
+	$footer-social-bg: #626a70;
+
+	/* -------------------------------------------------------------------------
+		MIXINS
+	-------------------------------------------------------------------------- */
+
+	// Alert message
+	@mixin c-alert-message { background-color: rgba( $accent2, 0.25 );
+		&:before { color: $accent2; }
+	}
+
+	// Box shadow
+	@mixin box-shadow ( $params... ) {
+		-moz-box-shadow: $params;
+		-webkit-box-shadow: $params;
+		box-shadow: $params;
+	}
+
+	// Button
+	@mixin c-button { color: $accent2; border-color: rgba( $accent2, 0.6 ); background-color: transparent;
+		&:hover { border-color: $accent2; }
+		&:active { border-color: rgba( $accent2, 0.5 ); }
+	}
+
+	// Input placeholder
+	@mixin input-placeholder( $color ) {
+		&::-webkit-input-placeholder { color: $color; }
+		&:-moz-placeholder { color: $color; }
+		&::-moz-placeholder { color: $color; }
+		&:-ms-input-placeholder { color: $color; }
+	}
+
+	// Vertical gradient
+	@mixin vertical-gradient( $from, $to ) {
+		background-image: -webkit-gradient( linear, left top, left bottom, from( $from ), to( $to ) );
+		background-image: -webkit-linear-gradient( top, $from, $to );
+		background-image:    -moz-linear-gradient( top, $from, $to );
+		background-image:      -o-linear-gradient( top, $from, $to );
+		background-image:         linear-gradient( to bottom, $from, $to );
+	}
+
+	/* -------------------------------------------------------------------------
+        TYPOGRAPHY
+	------------------------------------------------------------------------- */
+
+	& { color: $body-font; background-color: #FFF; }
+	a { color: $body-link; }
+	abbr { border-color: $body-font; }
+	cite { color: $gray; }
+	pre { color: $dark-gray; background-color: rgba( $x-soft-gray, 0.5 ); }
+
+	// Headings
+	h1, h2, h3, h4, h5 { color: $dark-gray; }
+
+	// Definition list
+	dt { color: $dark-gray; }
+
+	// Blockquote
+	blockquote { color: $dark-gray; border-color: $x-soft-gray; }
+
+
+/* -----------------------------------------------------------------------------
+
+    2. COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGE
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { @include c-alert-message; }
+
+	/* -------------------------------------------------------------------------
+		ARROW BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-arrow-button { background-color: #FFF; @include box-shadow( 2px 0 40px rgba( #000, 0.25 ) ); }
+	.c-arrow-button__icon { color: $accent1; }
+
+	/* -------------------------------------------------------------------------
+		BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-button { @include c-button; }
+
+	/* -------------------------------------------------------------------------
+		SEARCH FORM
+	------------------------------------------------------------------------- */
+
+	.c-search-form__input-holder { border-color: $soft-gray; }
+	.c-search-form__input { background-color: transparent; }
+	.c-search-form__button { color: $accent1; }
+
+	/* -------------------------------------------------------------------------
+		SPINNER
+		@link https://github.com/tobiasahlin/SpinKit
+	------------------------------------------------------------------------- */
+
+	.c-spinner { background-color: #333; }
+
+
+/* -----------------------------------------------------------------------------
+
+    3. SIDEBAR
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		WIDGETS
+	------------------------------------------------------------------------- */
+
+	.widget__title { color: $body-font; }
+	.widget__more-link { color: $accent2; border-color: rgba( $accent2, 0.6 ); }
+	.widget__more-link:hover { border-color: rgba( $accent2, 1 ); }
+	.widget__more-link:active { border-color: rgba( $accent2, 0.5 ); }
+
+	// LSVR Pressville Weather
+	.lsvr-pressville-weather-widget__time-title,
+	.lsvr-pressville-weather-widget__weather-item-title { color: $accent1; }
+	.lsvr-pressville-weather-widget__weather-item-date,
+	.lsvr-pressville-weather-widget__weather-item-wind { color: $gray; }
+	.lsvr-pressville-weather-widget__time-value,
+	.lsvr-pressville-weather-widget__weather-item-temperature { color: $dark-gray; }
+	.lsvr-pressville-weather-widget__weather-item-icon { color: $accent2; }
+	.lsvr-pressville-weather-widget__text { border-color: $x-soft-gray; }
+
+	// Definition list
+	.lsvr-definition-list-widget__item-title,
+	.lsvr-definition-list-widget__item-text { border-color: $x-soft-gray; }
+
+	// LSVR Posts
+	.lsvr-post-list-widget__item-title-link { color: $accent1; }
+	.lsvr-post-list-widget__item:hover .lsvr-post-list-widget__item-thumb-link { @include box-shadow( 0 5px 10px rgba( #000, 0.3 ) ); }
+	.lsvr-post-list-widget__item-category-link { color: $accent2; }
+
+	// LSVR Featured Post
+	.lsvr-post-featured-widget__content { border-color: $x-soft-gray; @include box-shadow( 0 2px 1px rgba( #000, 0.06 ) ); }
+	.lsvr-post-featured-widget__title-link { color: $accent1; }
+	.lsvr-post-featured-widget__category { color: $gray; }
+	.lsvr-post-featured-widget__category-link { color: $accent2; }
+
+	// LSVR Notices
+	.lsvr_notice-list-widget__item-title-link { color: $accent1; }
+	.lsvr_notice-list-widget__item-category-link { color: $accent2; }
+
+	// LSVR Directory
+	.lsvr_listing-list-widget__item-title-link { color: $accent1; }
+	.lsvr_listing-list-widget__item:hover .lsvr_listing-list-widget__item-thumb-link { @include box-shadow( 0 5px 10px rgba( #000, 0.3 ) ); }
+	.lsvr_listing-list-widget__item-category-link { color: $accent2; }
+
+	// LSVR Featured Listing
+	.lsvr_listing-featured-widget__content { border-color: $x-soft-gray; @include box-shadow( 0 2px 4px rgba( $gray, 0.15 ) ); background-color: #FFF; }
+	.lsvr_listing-featured-widget__item-category { color: $gray; }
+	.lsvr_listing-featured-widget__item-category-link { color: $accent2; }
+	.lsvr_listing-featured-widget__title-link { color: $accent1; }
+
+	// LSVR Events
+	.lsvr_event-list-widget__item-title-link { color: $accent1; }
+	.lsvr_event-list-widget__item:hover .lsvr_event-list-widget__item-thumb-link { @include box-shadow( 0 5px 10px rgba( #000, 0.3 ) ); }
+	.lsvr_event-list-widget__item-location-link { color: $accent2; }
+	.lsvr_event-list-widget__item-date-month { color: #FFF; background-color: $accent1; }
+	.lsvr_event-list-widget__item-date-day { color: $dark-gray; background-color: $x-soft-gray;  }
+
+	// LSVR Event Calendar
+	.lsvr_event-calendar-widget__calendar { border-color: $x-soft-gray; @include box-shadow( 0 2px 4px rgba( $gray, 0.15 ) ); background-color: #FFF; }
+	.lsvr_event-calendar-widget__calendar-header { border-color: $x-soft-gray; }
+	.lsvr_event-calendar-widget__nav-btn { color: $accent1; }
+	.lsvr_event-calendar-widget__weekday { color: $gray; }
+	.lsvr_event-calendar-widget__day-cell { color: $body-font; }
+	.lsvr_event-calendar-widget__day--previous-month > .lsvr_event-calendar-widget__day-cell { color: $soft-gray; }
+	.lsvr_event-calendar-widget__day--next-month > .lsvr_event-calendar-widget__day-cell { color: $soft-gray; }
+	.lsvr_event-calendar-widget__day--today > .lsvr_event-calendar-widget__day-cell { color: $dark-gray; }
+	.lsvr_event-calendar-widget__day--has-events > .lsvr_event-calendar-widget__day-cell:after { background-color: $accent2; }
+	.lsvr_event-calendar-widget__day--current > .lsvr_event-calendar-widget__day-cell { color: $accent1; }
+
+	// LSVR Featured Event
+	.lsvr_event-featured-widget__content { border-color: $x-soft-gray; @include box-shadow( 0 2px 1px rgba( #000, 0.06 ) ); background-color: #FFF; }
+	.lsvr_event-featured-widget__title-link { color: $accent1; }
+	.lsvr_event-featured-widget__location-link { color: $accent2; }
+
+	// LSVR Event Filter
+	.lsvr_event-filter-widget__option--datepicker:after { color: $accent1; }
+	.lsvr_event-filter-widget__submit-button { color: #FFF; background-color: $accent2; }
+	.lsvr_event-filter-widget__submit-button:hover { @include box-shadow( inset 0 0 0 50px rgba( #FFF, 0.15 ) ); }
+	.lsvr_event-filter-widget__submit-button:active { @include box-shadow( inset 0 0 0 50px rgba( #000, 0.1 ) ); }
+
+	// LSVR Galleries
+	.lsvr_gallery-list-widget__item-title-link { color: $accent1; }
+	.lsvr_gallery-list-widget__item:hover .lsvr_gallery-list-widget__item-thumb-link { @include box-shadow( 0 5px 10px rgba( #000, 0.3 ) ); }
+
+	// LSVR Gallery Categories
+	.lsvr_gallery-categories-widget { color: $gray; }
+
+	// LSVR Featured Gallery
+	.lsvr_gallery-featured-widget__title-link { color: $accent1; }
+	.lsvr_gallery-featured-widget__content { border-color: $x-soft-gray; @include box-shadow( 0 2px 1px rgba( #000, 0.06 ) ); background-color: #FFF; }
+
+	// LSVR Documents
+	.lsvr_document-list-widget__item { border-color: $x-soft-gray; }
+	.lsvr_document-list-widget__item-title-link { color: $accent1; }
+	.lsvr_document-list-widget__item-date:after { background-color: $gray; }
+
+	// LSVR Document Attachments
+	.lsvr_document-attachments-widget__item { border-color: $x-soft-gray; }
+	.lsvr_document-attachments-widget__item-icon { color: $soft-gray; }
+	.lsvr_document-attachments-widget__item-filesize { color: $gray; }
+	.lsvr_document-attachments-widget__item-label { color: $gray; border-color: rgba( $gray, 0.6 ); }
+	.lsvr-pressville-sidebar__bg .lsvr_document-attachments-widget__item-icon { color: darken( $soft-gray, 10% ); }
+
+	// LSVR Featured Document
+	.lsvr_document-featured-widget__title-link { color: $accent1; }
+	.lsvr_document-featured-widget__content { border-color: $x-soft-gray; @include box-shadow( 0 2px 1px rgba( #000, 0.06 ) ); background-color: #FFF; }
+	.lsvr_document-featured-widget__attachments:before { background-color: $x-soft-gray; }
+	.lsvr_document-featured-widget__attachment-icon { color: rgba( $gray, 0.5 ); }
+	.lsvr_document-featured-widget__attachment-filesize { color: $gray; }
+	.lsvr_document-featured-widget__attachment-label { color: $gray; border-color: rgba( $gray, 0.6 ); }
+
+	// LSVR People
+	.lsvr_person-list-widget__item:hover .lsvr_person-list-widget__item-thumb-link { @include box-shadow( 0 5px 10px rgba( #000, 0.3 ) ); }
+	.lsvr_person-list-widget__item-thumb-link img { display: block; }
+	.lsvr_person-list-widget__item-title-link { color: $accent1; }
+	.lsvr_person-list-widget__item-subtitle { color: $accent2; }
+	.lsvr_person-list-widget__item-social-link { color: #FFF; background-color: $soft-gray; }
+	.lsvr_person-list-widget__item-social-link:hover { background-color: $accent2; }
+
+	// LSVR Featured Person
+	.lsvr_person-featured-widget__content { border-color: $x-soft-gray; @include box-shadow( 0 2px 1px rgba( #000, 0.06 ) ); background-color: #FFF; }
+	.lsvr_person-featured-widget__title-link { color: $accent1; }
+	.lsvr_person-featured-widget__subtitle { color: $accent2; }
+	.lsvr_person-featured-widget__social-link { color: #FFF; background-color: $soft-gray; }
+	.lsvr_person-featured-widget__social-link:hover { background-color: $accent2; }
+
+    // bbpress Search
+	.widget_display_search .button { @include c-button; }
+
+    // bbpress Login
+	.bbp_widget_login {
+		.bbp-submit-wrapper .button { @include c-button; }
+	}
+
+	// Archive
+	.widget_archive { color: $gray; }
+
+	// Calendar
+	.widget_calendar {
+		caption { color: $dark-gray; }
+		th { color: $dark-gray; border-color: $x-soft-gray; }
+	}
+
+	// Categories
+	.widget_categories { color: $gray; }
+
+
+/* -----------------------------------------------------------------------------
+
+    4. ELEMENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		POST GRID
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-post-grid--dark-bg { background-color: rgba( $x-soft-gray, 0.4 ); }
+	.lsvr-pressville-post-grid__icon { color: rgba( $x-soft-gray, 0.6 ); }
+	.lsvr-pressville-post-grid__post-bg { background-color: $x-soft-gray; }
+	.lsvr-pressville-post-grid__post-title-link { color: $dark-gray; }
+	.lsvr-pressville-post-grid__post-event-date { color: #FFF; background-color: rgba( $accent2, 0.9 ); }
+	.lsvr-pressville-post-grid__post-badge { color: #FFF; background-color: rgba( $accent2, 0.9 ); }
+	.lsvr-pressville-post-grid__post-badge a { color: #FFF; }
+	.lsvr-pressville-post-grid__post.has-post-thumbnail {
+		.lsvr-pressville-post-grid__post-bg { background-color: transparent; }
+		.lsvr-pressville-post-grid__post-inner { @include vertical-gradient( transparent, rgba( #000, 0.85 ) ); }
+		&:hover .lsvr-pressville-post-grid__post-bg { background-color: rgba( $accent2, 0.5 ); }
+		.lsvr-pressville-post-grid__post-title-link { color: #FFF; }
+		.lsvr-pressville-post-grid__post-meta { color: #FFF; }
+		.lsvr-pressville-post-grid__post-meta a { color: #FFF; }
+		.lsvr-pressville-post-grid__post-address { color: #FFF; }
+	}
+
+		// Title in the background layout
+		@media ( min-width: 1200px ) {
+			.lsvr-pressville-post-grid--layout-title-bg {
+				.lsvr-pressville-post-grid__title { color: $x-soft-gray; }
+			}
+		}
+
+	/* -------------------------------------------------------------------------
+		SIDEBAR
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-sidebar--dark-bg { background-color: rgba( $x-soft-gray, 0.4 ); }
+	.lsvr-pressville-sidebar .widget__title { color: $dark-gray; }
+
+	/* -------------------------------------------------------------------------
+		SITEMAP
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-sitemap--has-bg .lsvr-pressville-sitemap__content { background-color: #FFF; @include box-shadow( 2px 0 40px rgba( #000, 0.15 ) ); }
+	.lsvr-pressville-sitemap__item-link--level-0 { color: $accent1; }
+	.lsvr-pressville-sitemap__item--level-1 { border-color: $x-soft-gray; }
+	.lsvr-pressville-sitemap__toggle { color: $accent2; }
+
+	/* -------------------------------------------------------------------------
+		LSVR ELEMENTS
+	------------------------------------------------------------------------- */
+
+	// Alert message
+	.lsvr-alert-message { color: #265e88; background-color: lighten( #265e88, 60% ); }
+	.lsvr-alert-message--warning { color: #d40041; background-color: #ffdfe0; }
+	.lsvr-alert-message--success { color: #499143; background-color: #d4fbd3; }
+
+    // Button
+	.lsvr-button { @include c-button; }
+
+    // Counter
+    .lsvr-counter__number { color: $accent1; }
+
+    // CTA
+    .lsvr-cta { border-color: $x-soft-gray; }
+    .lsvr-cta__button-link { @include c-button; }
+
+    // Feature
+    .lsvr-feature__title-link { color: $dark-gray; }
+    .lsvr-feature__icon { color: $accent1; }
+
+    // Pricing table
+    .lsvr-pricing-table { border-color: $x-soft-gray; }
+    .lsvr-pricing-table__title { color: #FFF; background-color: $accent2; }
+    .lsvr-pricing-table__price-value { color: $accent1; }
+    .lsvr-pricing-table__price-description { color: $gray; }
+    .lsvr-pricing-table__text { border-color: $x-soft-gray; }
+    .lsvr-pricing-table__button-link { @include c-button; }
+
+    // Progress bar
+    .lsvr-progress-bar__bar { background-color: $x-soft-gray; }
+    .lsvr-progress-bar__bar-inner { background-color: $accent1; }
+
+
+/* -----------------------------------------------------------------------------
+
+	5. EDITOR
+
+----------------------------------------------------------------------------- */
+
+& { color: $body-font; }
+
+} // Close .editor-styles-wrapper

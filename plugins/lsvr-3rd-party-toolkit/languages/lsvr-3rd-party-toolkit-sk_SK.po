@@ -1,0 +1,861 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR 3rd Party Toolkit\n"
+"POT-Creation-Date: 2021-08-18 18:11+0200\n"
+"PO-Revision-Date: 2021-08-18 18:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: LSVRthemes\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-alert-message.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-alert-message.php:28
+#: ../inc/vc-config.php:28
+msgid "LSVR Alert Message"
+msgstr "LSVR Oznámenie"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-cta.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-cta.php:28
+#: ../inc/vc-config.php:535
+msgid "BeautySpot CTA"
+msgstr "BeautySpot CTA"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-faq.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-faq.php:28
+#: ../inc/vc-config.php:548
+msgid "BeautySpot FAQ"
+msgstr "BeautySpot Najčastejšie otázky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-galleries.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-galleries.php:28
+#: ../inc/vc-config.php:561
+msgid "BeautySpot Galleries"
+msgstr "BeautySpot Galérie"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-gallery.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-gallery.php:28
+#: ../inc/vc-config.php:574
+msgid "BeautySpot Gallery"
+msgstr "BeautySpot Galéria"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-intro.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-intro.php:28
+#: ../inc/vc-config.php:587
+msgid "BeautySpot Intro"
+msgstr "BeautySpot Intro"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-posts.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-posts.php:28
+#: ../inc/vc-config.php:600
+msgid "BeautySpot Posts"
+msgstr "BeautySpot Články"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-services.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-services.php:28
+#: ../inc/vc-config.php:613
+msgid "BeautySpot Services"
+msgstr "BeautySpot Služby"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-sidebar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-sidebar.php:28
+#: ../inc/vc-config.php:626
+msgid "BeautySpot Sidebar"
+msgstr "BeautySpot Panel"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-testimonials.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-beautyspot-testimonials.php:28
+#: ../inc/vc-config.php:639
+msgid "BeautySpot Testimonials"
+msgstr "BeautySpot Odporúčania"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-cta.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-cta.php:28
+#: ../inc/vc-config.php:657
+msgid "BlueCollar CTA"
+msgstr "BlueCollar CTA"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-faq.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-faq.php:28
+#: ../inc/vc-config.php:670
+msgid "BlueCollar FAQ"
+msgstr "BlueCollar Najčastejšie otázky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-features.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-features.php:28
+#: ../inc/vc-config.php:683
+msgid "BlueCollar Features"
+msgstr "BlueCollar Vlastnosti"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-galleries.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-galleries.php:28
+#: ../inc/vc-config.php:696
+msgid "BlueCollar Galleries"
+msgstr "BlueCollar Galérie"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-intro.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-intro.php:28
+#: ../inc/vc-config.php:709
+msgid "BlueCollar Intro"
+msgstr "BlueCollar Intro"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-posts.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-posts.php:28
+#: ../inc/vc-config.php:722
+msgid "BlueCollar Posts"
+msgstr "BlueCollar Články"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-projects.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-projects.php:28
+#: ../inc/vc-config.php:735
+msgid "BlueCollar Portfolio"
+msgstr "BlueCollar Portfólio"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-services.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-services.php:28
+#: ../inc/vc-config.php:748
+msgid "BlueCollar Services"
+msgstr "BlueCollar Služby"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-sidebar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-sidebar.php:28
+#: ../inc/vc-config.php:761
+msgid "BlueCollar Sidebar"
+msgstr "BlueCollar Panel"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-testimonials.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-bluecollar-testimonials.php:28
+#: ../inc/vc-config.php:774
+msgid "BlueCollar Testimonials"
+msgstr "BlueCollar Odporúčania"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-button.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-button.php:28
+#: ../inc/vc-config.php:41
+msgid "LSVR Button"
+msgstr "LSVR Tlačidlo"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-counter.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-counter.php:28
+#: ../inc/vc-config.php:54
+msgid "LSVR Counter"
+msgstr "LSVR Počítadlo"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-cta.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-cta.php:28
+#: ../inc/vc-config.php:67
+msgid "LSVR CTA"
+msgstr "LSVR CTA"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-definition-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-definition-list-widget.php:28
+#: ../inc/vc-config.php:80
+msgid "LSVR Definition List Widget"
+msgstr "LSVR Definície (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-document-attachments-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-document-attachments-widget.php:28
+#: ../inc/vc-config.php:220
+msgid "LSVR Document Attachments Widget"
+msgstr "LSVR Prílohy Dokumentov (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-document-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-document-featured-widget.php:28
+#: ../inc/vc-config.php:207
+msgid "LSVR Featured Document Widget"
+msgstr "LSVR Odporúčaný Dokument (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-document-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-document-list-widget.php:28
+#: ../inc/vc-config.php:194
+msgid "LSVR Documents Widget"
+msgstr "LSVR Dokumenty (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-event-calendar-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-event-calendar-widget.php:28
+msgid "LSVR Event Calendar Widget"
+msgstr "LSVR Kalendár Udalostí (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-event-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-event-featured-widget.php:28
+#: ../inc/vc-config.php:264
+msgid "LSVR Featured Event Widget"
+msgstr "LSVR Odporúčaná Udalosť (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-event-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-event-list-widget.php:28
+#: ../inc/vc-config.php:251
+msgid "LSVR Events Widget"
+msgstr "LSVR Udalosti (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-faq-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-faq-featured-widget.php:28
+#: ../inc/vc-config.php:295
+msgid "LSVR Featured FAQ Widget"
+msgstr "LSVR Vybraná Otázka (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-faq-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-faq-list-widget.php:28
+#: ../inc/vc-config.php:282
+msgid "LSVR FAQ Widget"
+msgstr "LSVR Najčastejšie Otázky (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-feature.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-feature.php:28
+#: ../inc/vc-config.php:93
+msgid "LSVR Feature"
+msgstr "LSVR Vlastnosť"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-gallery-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-gallery-featured-widget.php:28
+#: ../inc/vc-config.php:326
+msgid "LSVR Featured Gallery Widget"
+msgstr "LSVR Vybraná Galéria (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-gallery-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-gallery-list-widget.php:28
+#: ../inc/vc-config.php:313
+msgid "LSVR Galleries Widget"
+msgstr "LSVR Galérie (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-kba-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-kba-featured-widget.php:28
+#: ../inc/vc-config.php:357
+msgid "LSVR Featured KB Article Widget"
+msgstr "LSVR Vybraný článok z VD (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-kba-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-kba-list-widget.php:28
+#: ../inc/vc-config.php:344
+msgid "LSVR KB Articles Widget"
+msgstr "LSVR Články z VD (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-listing-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-listing-featured-widget.php:28
+#: ../inc/vc-config.php:176
+msgid "LSVR Featured Listing Widget"
+msgstr "LSVR Odporúčaná Lokácia (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-listing-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-listing-list-widget.php:28
+#: ../inc/vc-config.php:163
+msgid "LSVR Directory Widget"
+msgstr "LSVR Adresár (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-cta-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-cta-widget.php:28
+#: ../inc/vc-config.php:792
+msgid "Lore CTA Widget"
+msgstr "Lore CTA (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-faq.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-faq.php:28
+#: ../inc/vc-config.php:805
+msgid "Lore FAQ"
+msgstr "Lore Najčastejšie Otázky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-kba-category-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-kba-category-widget.php:28
+#: ../inc/vc-config.php:818
+msgid "Lore KB Category Widget"
+msgstr "Lore VD Kategória (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-knowledge-base.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-knowledge-base.php:28
+#: ../inc/vc-config.php:831
+msgid "Lore Knowledge Base"
+msgstr "Lore Vedomostná Databáza"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-posts.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-posts.php:28
+#: ../inc/vc-config.php:844
+msgid "Lore Posts"
+msgstr "Lore Články"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-sidebar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-sidebar.php:28
+#: ../inc/vc-config.php:857
+msgid "Lore Sidebar"
+msgstr "Lore Panel"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-sitemap.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-sitemap.php:28
+#: ../inc/vc-config.php:870
+msgid "Lore Sitemap"
+msgstr "Lore Mapa Stránky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-toc.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-lore-toc.php:28
+#: ../inc/vc-config.php:883
+msgid "Lore Table of Contents"
+msgstr "Lore Obsah"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-notice-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-notice-list-widget.php:28
+#: ../inc/vc-config.php:375
+msgid "LSVR Notices Widget"
+msgstr "LSVR Oznámenia (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-person-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-person-featured-widget.php:28
+#: ../inc/vc-config.php:406
+msgid "LSVR Featured Person Widget"
+msgstr "LSVR Odporúčaná Osoba"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-person-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-person-list-widget.php:28
+#: ../inc/vc-config.php:393
+msgid "LSVR People Widget"
+msgstr "LSVR Ľudia (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-post-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-post-featured-widget.php:28
+#: ../inc/vc-config.php:106
+msgid "LSVR Featured Post Widget"
+msgstr "LSVR Vybraný článok (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-post-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-post-list-widget.php:28
+#: ../inc/vc-config.php:119
+msgid "LSVR Posts Widget"
+msgstr "LSVR Články (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-directory.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-directory.php:28
+#: ../inc/vc-config.php:915
+msgid "Pressville Directory"
+msgstr "Pressville Adresár"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-events.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-events.php:28
+#: ../inc/vc-config.php:928
+msgid "Pressville Events"
+msgstr "Pressville Udalosti"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-galleries.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-galleries.php:28
+#: ../inc/vc-config.php:941
+msgid "Pressville Galleries"
+msgstr "Pressville Galérie"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-posts.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-posts.php:28
+#: ../inc/vc-config.php:954
+msgid "Pressville Posts"
+msgstr "Pressville Články"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-sidebar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-sidebar.php:28
+#: ../inc/vc-config.php:967
+msgid "Pressville Sidebar"
+msgstr "Pressville Panel"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-sitemap.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-sitemap.php:28
+#: ../inc/vc-config.php:980
+msgid "Pressville Sitemap"
+msgstr "Pressville Mapa Stránky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-weather-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pressville-weather-widget.php:28
+#: ../inc/vc-config.php:993
+msgid "Pressville Weather Widget"
+msgstr "TownPress Počasie (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pricing-table.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-pricing-table.php:28
+#: ../inc/vc-config.php:132
+msgid "LSVR Pricing Table"
+msgstr "LSVR Cenová tabuľka"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-progress-bar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-progress-bar.php:28
+#: ../inc/vc-config.php:145
+msgid "LSVR Progress Bar"
+msgstr "LSVR Ukazateľ postupu"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-project-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-project-featured-widget.php:28
+#: ../inc/vc-config.php:437
+msgid "LSVR Featured Project Widget"
+msgstr "LSVR Vybraný Projekt (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-project-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-project-list-widget.php:28
+#: ../inc/vc-config.php:424
+msgid "LSVR Portfolio Widget"
+msgstr "LSVR Portfólio (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-service-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-service-featured-widget.php:28
+#: ../inc/vc-config.php:468
+msgid "LSVR Featured Service Widget"
+msgstr "LSVR Vybraná Služba (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-service-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-service-list-widget.php:28
+#: ../inc/vc-config.php:455
+msgid "LSVR Services Widget"
+msgstr "LSVR Služby (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-slide-list.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-slide-list.php:28
+#: ../inc/vc-config.php:486
+msgid "LSVR Slides"
+msgstr "LSVR Slajdy"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-testimonial-featured-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-testimonial-featured-widget.php:28
+#: ../inc/vc-config.php:517
+msgid "LSVR Featured Testimonial Widget"
+msgstr "LSVR Vybrané Odporúčanie (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-testimonial-list-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-testimonial-list-widget.php:28
+#: ../inc/vc-config.php:504
+msgid "LSVR Testimonials Widget"
+msgstr "LSVR Odporúčania (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-post-slider.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-post-slider.php:28
+#: ../inc/vc-config.php:1011
+msgid "TownPress Post Slider"
+msgstr "TownPress Slider Článkov"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-posts.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-posts.php:28
+#: ../inc/vc-config.php:1024
+msgid "TownPress Posts"
+msgstr "TownPress Články"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-sidebar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-sidebar.php:28
+#: ../inc/vc-config.php:1037
+msgid "TownPress Sidebar"
+msgstr "TownPress Panel"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-sitemap.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-sitemap.php:28
+#: ../inc/vc-config.php:1050
+msgid "TownPress Sitemap"
+msgstr "TownPress Mapa stránky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-weather-widget.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-townpress-weather-widget.php:28
+#: ../inc/vc-config.php:1063
+msgid "TownPress Weather Widget"
+msgstr "TownPress Počasie (widget)"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-contact.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-contact.php:28
+#: ../inc/vc-config.php:1081
+msgid "Wordbench Contact"
+msgstr "Wordbench Kontakt"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-container.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-container.php:28
+#: ../inc/vc-config.php:1093
+msgid "Wordbench Container"
+msgstr "Wordbench Kontajner"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-directory.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-directory.php:28
+#: ../inc/vc-config.php:1105
+msgid "Wordbench Directory"
+msgstr "Wordbench Adresár"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-documents.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-documents.php:28
+#: ../inc/vc-config.php:1117
+msgid "Wordbench Documents"
+msgstr "Wordbench Dokumenty"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-events.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-events.php:28
+#: ../inc/vc-config.php:1129
+msgid "Wordbench Events"
+msgstr "Wordbench Udalosti"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-faq.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-faq.php:28
+#: ../inc/vc-config.php:1141
+msgid "Wordbench FAQ"
+msgstr "Wordbench Najčastejšie Otázky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-hero.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-hero.php:28
+#: ../inc/vc-config.php:1153
+msgid "Wordbench Hero"
+msgstr "Wordbench Hero"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-people.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-people.php:28
+#: ../inc/vc-config.php:1165
+msgid "Wordbench People"
+msgstr "Wordbench Ľudia"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-portfolio.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-portfolio.php:28
+#: ../inc/vc-config.php:1177
+msgid "Wordbench Portfolio"
+msgstr "Wordbench Portfólio"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-posts.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-posts.php:28
+#: ../inc/vc-config.php:1189
+msgid "Wordbench Posts"
+msgstr "Wordbench Články"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-services.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-services.php:28
+#: ../inc/vc-config.php:1201
+msgid "Wordbench Services"
+msgstr "Wordbench Služby"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-sidebar.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-sidebar.php:28
+#: ../inc/vc-config.php:1213
+msgid "Wordbench Sidebar"
+msgstr "Wordbench Sidebar"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-sitemap.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-sitemap.php:28
+#: ../inc/vc-config.php:1225
+msgid "Wordbench Sitemap"
+msgstr "Wordbench Mapa Stránky"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-slider.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-slider.php:28
+#: ../inc/vc-config.php:1237
+msgid "Wordbench Slider"
+msgstr "Wordbench Slajder"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-splitscreen.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-splitscreen.php:28
+#: ../inc/vc-config.php:1249
+msgid "Wordbench Split Screen"
+msgstr "Wordbench Split Screen"
+
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-testimonials.php:13
+#: ../inc/classes/elementor-widgets/lsvr-elementor-widget-wordbench-testimonials.php:28
+#: ../inc/vc-config.php:1261
+msgid "Wordbench Testimonials"
+msgstr "Wordbench Odporúčania"
+
+#: ../inc/core-functions.php:91 ../inc/core-functions.php:97
+#: ../inc/core-functions.php:103
+msgid "---"
+msgstr "---"
+
+#: ../inc/core-functions.php:174
+msgid "Yes"
+msgstr "Áno"
+
+#: ../inc/core-functions.php:175
+msgid "No"
+msgstr "Nie"
+
+#: ../inc/core-functions.php:239
+msgid "Content"
+msgstr "Obsah"
+
+#: ../inc/elementor-config.php:41 ../inc/vc-config.php:30
+#: ../inc/vc-config.php:43 ../inc/vc-config.php:56 ../inc/vc-config.php:69
+#: ../inc/vc-config.php:95 ../inc/vc-config.php:134 ../inc/vc-config.php:147
+#: ../inc/vc-config.php:488
+msgid "LSVR Elements"
+msgstr "LSVR Elementy"
+
+#: ../inc/elementor-config.php:47 ../inc/vc-config.php:82
+#: ../inc/vc-config.php:108 ../inc/vc-config.php:121 ../inc/vc-config.php:165
+#: ../inc/vc-config.php:178 ../inc/vc-config.php:196 ../inc/vc-config.php:209
+#: ../inc/vc-config.php:222 ../inc/vc-config.php:240 ../inc/vc-config.php:253
+#: ../inc/vc-config.php:266 ../inc/vc-config.php:284 ../inc/vc-config.php:297
+#: ../inc/vc-config.php:315 ../inc/vc-config.php:328 ../inc/vc-config.php:346
+#: ../inc/vc-config.php:359 ../inc/vc-config.php:377 ../inc/vc-config.php:395
+#: ../inc/vc-config.php:408 ../inc/vc-config.php:426 ../inc/vc-config.php:439
+#: ../inc/vc-config.php:457 ../inc/vc-config.php:470 ../inc/vc-config.php:506
+#: ../inc/vc-config.php:519
+msgid "LSVR Widgets"
+msgstr "LSVR Widgety"
+
+#: ../inc/elementor-config.php:53 ../inc/vc-config.php:537
+#: ../inc/vc-config.php:550 ../inc/vc-config.php:563 ../inc/vc-config.php:576
+#: ../inc/vc-config.php:589 ../inc/vc-config.php:602 ../inc/vc-config.php:615
+#: ../inc/vc-config.php:628 ../inc/vc-config.php:641
+msgid "BeautySpot"
+msgstr "BeautySpot"
+
+#: ../inc/elementor-config.php:59 ../inc/vc-config.php:659
+#: ../inc/vc-config.php:672 ../inc/vc-config.php:685 ../inc/vc-config.php:698
+#: ../inc/vc-config.php:711 ../inc/vc-config.php:724 ../inc/vc-config.php:737
+#: ../inc/vc-config.php:750 ../inc/vc-config.php:763 ../inc/vc-config.php:776
+msgid "BlueCollar"
+msgstr "BlueCollar"
+
+#: ../inc/elementor-config.php:65 ../inc/vc-config.php:794
+#: ../inc/vc-config.php:807 ../inc/vc-config.php:820 ../inc/vc-config.php:833
+#: ../inc/vc-config.php:846 ../inc/vc-config.php:859 ../inc/vc-config.php:872
+#: ../inc/vc-config.php:885
+msgid "Lore"
+msgstr "Lore"
+
+#: ../inc/elementor-config.php:71 ../inc/vc-config.php:903
+#: ../inc/vc-config.php:917 ../inc/vc-config.php:930 ../inc/vc-config.php:943
+#: ../inc/vc-config.php:956 ../inc/vc-config.php:969 ../inc/vc-config.php:982
+#: ../inc/vc-config.php:995
+msgid "Pressville"
+msgstr "Pressville"
+
+#: ../inc/elementor-config.php:77 ../inc/vc-config.php:1013
+#: ../inc/vc-config.php:1026 ../inc/vc-config.php:1039
+#: ../inc/vc-config.php:1052 ../inc/vc-config.php:1065
+msgid "TownPress"
+msgstr "TownPress"
+
+#: ../inc/elementor-config.php:83 ../inc/vc-config.php:1082
+#: ../inc/vc-config.php:1094 ../inc/vc-config.php:1106
+#: ../inc/vc-config.php:1118 ../inc/vc-config.php:1130
+#: ../inc/vc-config.php:1142 ../inc/vc-config.php:1154
+#: ../inc/vc-config.php:1166 ../inc/vc-config.php:1178
+#: ../inc/vc-config.php:1190 ../inc/vc-config.php:1202
+#: ../inc/vc-config.php:1214 ../inc/vc-config.php:1226
+#: ../inc/vc-config.php:1238 ../inc/vc-config.php:1250
+#: ../inc/vc-config.php:1262
+msgid "Wordbench"
+msgstr "Wordbench"
+
+#: ../inc/vc-config.php:29
+msgid "Block with text"
+msgstr "Blok s textom"
+
+#: ../inc/vc-config.php:42
+msgid "Basic button with link"
+msgstr "Jednoduché tlačidlo s odkazom"
+
+#: ../inc/vc-config.php:55
+msgid "Block with number and label"
+msgstr "Blok s číslom a popiskom"
+
+#: ../inc/vc-config.php:68 ../inc/vc-config.php:536 ../inc/vc-config.php:658
+msgid "Block with title, text and button"
+msgstr "Blok s nadpisom, textom a tlačidlom"
+
+#: ../inc/vc-config.php:81
+msgid "List of definitions"
+msgstr "Zoznam definícií"
+
+#: ../inc/vc-config.php:94
+msgid "Block with icon, title and text"
+msgstr "Blok s ikonou nadpisom a textom"
+
+#: ../inc/vc-config.php:107
+msgid "Single post"
+msgstr "Voliteľný článok"
+
+#: ../inc/vc-config.php:120 ../inc/vc-config.php:601 ../inc/vc-config.php:723
+#: ../inc/vc-config.php:845 ../inc/vc-config.php:1025
+msgid "List of posts"
+msgstr "Zoznam článkov"
+
+#: ../inc/vc-config.php:133
+msgid "Block with title, price, text and button"
+msgstr "Blok s nadpisom, cenou, textom a tlačidlom"
+
+#: ../inc/vc-config.php:146
+msgid "Block with title and label"
+msgstr "Blok s nadpisom a popiskom"
+
+#: ../inc/vc-config.php:164
+msgid "List of listing posts"
+msgstr "Zoznam lokácií z adresára"
+
+#: ../inc/vc-config.php:177
+msgid "Single listing post"
+msgstr "Lokácia z adresára"
+
+#: ../inc/vc-config.php:195
+msgid "List of document posts"
+msgstr "Zoznam dokumentov"
+
+#: ../inc/vc-config.php:208
+msgid "Single document post"
+msgstr "Samostatný dokument"
+
+#: ../inc/vc-config.php:221
+msgid "List of attachments"
+msgstr "Zoznam príloh dokumentov"
+
+#: ../inc/vc-config.php:238
+msgid "LSVR Event Calendar"
+msgstr "LSVR Kalendár Udalostí"
+
+#: ../inc/vc-config.php:239
+msgid "Calendar view of event posts"
+msgstr "Kalendárny prehľad udalostí"
+
+#: ../inc/vc-config.php:252
+msgid "List of event posts"
+msgstr "Zoznam udalostí"
+
+#: ../inc/vc-config.php:265
+msgid "Single event post"
+msgstr "Samostatná udalosť"
+
+#: ../inc/vc-config.php:283 ../inc/vc-config.php:549 ../inc/vc-config.php:671
+#: ../inc/vc-config.php:806
+msgid "List of FAQ posts"
+msgstr "Zoznam otázok"
+
+#: ../inc/vc-config.php:296
+msgid "Single FAQ post"
+msgstr "Voliteľná otázka"
+
+#: ../inc/vc-config.php:314
+msgid "List of gallery posts"
+msgstr "Zoznam galérií"
+
+#: ../inc/vc-config.php:327
+msgid "Single gallery post"
+msgstr "Voliteľná galéria"
+
+#: ../inc/vc-config.php:345
+msgid "List of KB posts"
+msgstr "Zoznam článkov z VD"
+
+#: ../inc/vc-config.php:358
+msgid "Single KB article"
+msgstr "Voliteľný článok"
+
+#: ../inc/vc-config.php:376
+msgid "List of notice posts"
+msgstr "Zoznam oznámení"
+
+#: ../inc/vc-config.php:394
+msgid "List of person posts"
+msgstr "Zoznam osôb"
+
+#: ../inc/vc-config.php:407
+msgid "Single person post"
+msgstr "Samostatná osoba"
+
+#: ../inc/vc-config.php:425
+msgid "List of project posts"
+msgstr "Zoznam projektov"
+
+#: ../inc/vc-config.php:438
+msgid "Single project post"
+msgstr "Voliteľný projekt"
+
+#: ../inc/vc-config.php:456
+msgid "List of service posts"
+msgstr "Zoznam služieb"
+
+#: ../inc/vc-config.php:469
+msgid "Single service post"
+msgstr "Voliteľná služba"
+
+#: ../inc/vc-config.php:487
+msgid "List of slides"
+msgstr "Zoznam slajdov"
+
+#: ../inc/vc-config.php:505
+msgid "List of testimonial posts"
+msgstr "Zoznam odporúčaní"
+
+#: ../inc/vc-config.php:518
+msgid "Single testimonial post"
+msgstr "Samostatné odporúčanie"
+
+#: ../inc/vc-config.php:562 ../inc/vc-config.php:697
+msgid "List of galleries"
+msgstr "Zoznam galérií"
+
+#: ../inc/vc-config.php:575
+msgid "List of gallery images"
+msgstr "Obrázky galérie"
+
+#: ../inc/vc-config.php:588 ../inc/vc-config.php:710
+msgid "Section with image and text"
+msgstr "Sekcia s obrázkom a textom"
+
+#: ../inc/vc-config.php:614 ../inc/vc-config.php:749
+msgid "List of services"
+msgstr "Zoznam služieb"
+
+#: ../inc/vc-config.php:627 ../inc/vc-config.php:762 ../inc/vc-config.php:858
+#: ../inc/vc-config.php:968 ../inc/vc-config.php:1038
+msgid "Sidebar with widgets"
+msgstr "Panel s widgetmi"
+
+#: ../inc/vc-config.php:640 ../inc/vc-config.php:775
+msgid "List of testimonials"
+msgstr "Zoznam odporúčaní"
+
+#: ../inc/vc-config.php:684
+msgid "Blocks with icon, title and text"
+msgstr "Malé bloky s ikonou, nadpisom a textom"
+
+#: ../inc/vc-config.php:736
+msgid "List of portfolio projects"
+msgstr "Zoznam projektov"
+
+#: ../inc/vc-config.php:793
+msgid "Block with title, text and link"
+msgstr "Blok s nadpisom, textom a odkazom"
+
+#: ../inc/vc-config.php:819
+msgid "KB category with articles"
+msgstr "VD kategória s článkami"
+
+#: ../inc/vc-config.php:832
+msgid "Grid of categorized KB articles"
+msgstr "Sekcia s kategorizovanými článkami z VD"
+
+#: ../inc/vc-config.php:871 ../inc/vc-config.php:981 ../inc/vc-config.php:1051
+msgid "Custom menu"
+msgstr "Vlastné menu"
+
+#: ../inc/vc-config.php:884
+msgid "List of anchored headings"
+msgstr "Zoznam odkazov na nadpisy"
+
+#: ../inc/vc-config.php:901
+msgid "Pressville Container"
+msgstr "Pressville kontajner"
+
+#: ../inc/vc-config.php:902
+msgid "Container with fixed max width"
+msgstr "Kontajner s pevnou maximálnou šírkou"
+
+#: ../inc/vc-config.php:916
+msgid "List of Listings"
+msgstr "Zoznam lokácií"
+
+#: ../inc/vc-config.php:929
+msgid "List of Events"
+msgstr "Zoznam udalostí"
+
+#: ../inc/vc-config.php:942
+msgid "List of Galleries"
+msgstr "Zoznam galérií"
+
+#: ../inc/vc-config.php:955
+msgid "List of Posts"
+msgstr "Zoznam článkov"
+
+#: ../inc/vc-config.php:994 ../inc/vc-config.php:1064
+msgid "Weather forecast"
+msgstr "Predpoveď počasia"
+
+#: ../inc/vc-config.php:1012
+msgid "List of posts in a slider"
+msgstr "Zoznam článkov v slideri"

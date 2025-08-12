@@ -1,0 +1,793 @@
+/* -----------------------------------------------------------------------------
+
+	1. GENERAL
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		TYPOGRAPHY
+	------------------------------------------------------------------------- */
+
+	/* BLOCKQUOTE */
+	blockquote { padding-left: 0; padding-right: 30px;}
+
+	/* LIST */
+	ul { padding-left: 0; padding-right: 20px; }
+	ol { padding-left: 0; padding-right: 20px; }
+	ul ul, ol ol,
+	ul ol, ol ul { margin-left: 0; margin-right: 30px; }
+
+	/* TABLE */
+	th { text-align: right; }
+
+	/* -------------------------------------------------------------------------
+		UTILITY CLASSES
+	------------------------------------------------------------------------- */
+
+    /* Default WP gallery */
+	.gallery-item { float: right; }
+	.gallery-columns-1 .gallery-item { float: none; }
+	.gallery-columns-2 .gallery-item:nth-child(2n+1),
+	.gallery-columns-3 .gallery-item:nth-child(3n+1),
+	.gallery-columns-4 .gallery-item:nth-child(4n+1),
+	.gallery-columns-5 .gallery-item:nth-child(5n+1),
+	.gallery-columns-6 .gallery-item:nth-child(6n+1),
+	.gallery-columns-7 .gallery-item:nth-child(7n+1),
+	.gallery-columns-8 .gallery-item:nth-child(8n+1),
+	.gallery-columns-9 .gallery-item:nth-child(9n+1) { clear: right; }
+
+
+/* -----------------------------------------------------------------------------
+
+    2. COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGE
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { padding-left: 30px; padding-right: 60px; }
+	.c-alert-message:before { left: auto; right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		ARROW BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-arrow-button__icon { left: auto; right: 0; }
+	.c-arrow-button__icon--left:before { content: '\e903'; }
+	.c-arrow-button__icon--right:before { content: '\e902'; }
+	.c-arrow-button:active .c-arrow-button__icon--left { right: -2px; }
+	.c-arrow-button:active .c-arrow-button__icon--right { right: 2px; }
+
+	/* -------------------------------------------------------------------------
+		SEARCH FORM
+	------------------------------------------------------------------------- */
+
+	.c-search-form__input { padding-left: 60px; padding-right: 15px; }
+	.c-search-form__button { right: auto; left: 10px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    3. HEADER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		TITLEBAR
+	------------------------------------------------------------------------- */
+
+	.header-titlebar--has-logo .header-titlebar__text { padding-left: 0; padding-right: 30px; }
+
+	/* -------------------------------------------------------------------------
+		TOPBAR
+	------------------------------------------------------------------------- */
+
+	/* Secondary Header Menu */
+	.header-menu-secondary { left: auto; right: 0;padding-left: 0; padding-right: 30px; }
+	.header-menu-secondary__list li { margin-right: 0; margin-left: 30px; }
+
+	/* Header Languages */
+	.header-languages { right: auto; left: 0; }
+	.header-languages:before { left: auto; right: -10px;
+		-webkit-transform: rotate( 150deg ); -ms-transform: rotate( 150deg ); transform: rotate( 150deg ); }
+	.header-languages__item { margin-left: 0; margin-right: 25px; }
+
+	/* -------------------------------------------------------------------------
+		NAVBAR
+	------------------------------------------------------------------------- */
+
+	/* Primary header menu */
+	@media ( min-width: 992px ) {
+
+		.header-menu-primary { float: right; }
+
+		/* First Level */
+		.header-menu-primary__item-link--level-0:after { left: auto; right: 20px; }
+		.current-menu-ancestor .header-menu-primary__item-link--level-0:before,
+		.current-menu-item .header-menu-primary__item-link--level-0:before { left: auto; right: 50%; margin-left: 0; margin-right: -2px; }
+
+		/* Dropdown menu */
+		.header-menu-primary__item--dropdown .header-menu-primary__submenu--level-0,
+		.header-menu-primary__item--dropdown .header-menu-primary__submenu--level-1 { left: auto; right: 0; }
+		.header-menu-primary__item--dropdown .header-menu-primary__item--level-1.menu-item-has-children:after { right: auto; left: 30px; }
+		.header-menu-primary__item--dropdown .header-menu-primary__submenu--level-1 { left: auto; right: 100%; margin-left: 0; margin-right: -10px; }
+		.header-menu-primary__item--dropdown .header-menu-primary__submenu--level-1 .header-menu-primary__submenu { padding-left: 0; padding-right: 20px; }
+		.header-menu-primary__item--dropdown:last-child .header-menu-primary__submenu--level-1 { right: auto; left: 100%; margin-right: 0; margin-left: -10px }
+
+		/* Megamenu */
+		.header-menu-primary__item--megamenu .header-menu-primary__item--level-1 { float: right; }
+		.header-menu-primary__item--megamenu .header-menu-primary__item--level-1:nth-child(4n+1) { clear: right; }
+		.header-menu-primary__item--megamenu .header-menu-primary__submenu--level-1 .header-menu-primary__submenu { padding-left: 0; padding-right: 20px; }
+
+	}
+
+	/* Header search */
+	.header-search__wrapper { float: left; }
+	.header-search__toggle { right: auto; left: 0; }
+	.header-search__toggle-icon { left: auto; right: 0; }
+	.header-search { right: auto; left: -30px; }
+	.header-search__input { padding-left: 90px; padding-right: 20px; }
+	.header-search__submit { right: auto; left: 5px; }
+	.header-search__submit-icon { left: auto; right: 0; }
+	.header-search__spinner { right: auto; left: 45px; }
+	.header-search__filter-label { margin-left: 3px; margin-right: 0; }
+	.header-search__results-item { padding-left: 0; padding-right: 30px; }
+	.header-search__results-item-icon { left: auto; right: 0; }
+	.header-search__arrow { right: auto; left: 37px; }
+	.header-search__arrow:after { left: auto; right: 5px; }
+
+	/* -------------------------------------------------------------------------
+		HEADER LANGUAGES MOBILE
+	------------------------------------------------------------------------- */
+
+	.header-languages-mobile__toggle { right: auto; left: 10px; }
+	.header-languages-mobile__toggle:before { left: auto; right: 10px; }
+
+	/* -------------------------------------------------------------------------
+		HEADER MOBILE TOGGLE
+	------------------------------------------------------------------------- */
+
+	.header-mobile-toggle { padding-left: 100px; padding-right: 50px; text-align: right; }
+	.header-mobile-toggle:before { left: auto; right: 20px; }
+	.header-mobile-toggle:after { right: auto; left: -10px;
+		-webkit-transform: rotate( 150deg ); -ms-transform: rotate( 150deg ); transform: rotate( 150deg ); }
+	.header-mobile-toggle__icon { right: auto; left: 20px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    4. CORE
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		BREADCRUMBS
+	------------------------------------------------------------------------- */
+
+	.breadcrumbs__item { margin-left: 12px; margin-right: 0; }
+	.breadcrumbs__item + .breadcrumbs__item { padding-left: 0; padding-right: 22px; }
+	.breadcrumbs__item:before { content: '\f053'; left: auto; right: 0; }
+	.breadcrumbs__item:first-child:before { content: ''; }
+
+	/* -------------------------------------------------------------------------
+		POST COMMON COMPONENTS
+	------------------------------------------------------------------------- */
+
+	/* Post archive categories */
+	.post-archive-categories__list { padding-left: 0; padding-right: 25px; }
+	.post-archive-categories__list:before { left: auto; right: 0; }
+	.post-archive-categories__item { margin-right: 0; margin-left: 7px; padding-right: 0; padding-left: 12px; }
+	.post-archive-categories__item:before { right: auto; left: 0; }
+
+	/* Post archive filter */
+	.post-archive-filter__option { float: right; margin-left: 15px; margin-right: 0; }
+	.post-archive-filter__option--datepicker { padding-right: 0; padding-left: 35px; }
+	.post-archive-filter__option--datepicker:after { right: auto; left: 10px; }
+	.post-archive-filter__label { padding-left: 10px; padding-right: 15px; }
+	.post-archive-filter__submit { float: right; margin-left: 20px; margin-right: 0; }
+	.post-archive-filter__reset { float: right; }
+
+	/* Post footer */
+	.post__tags .post__term-link { margin-left: 5px; margin-right: 0; }
+
+	/* Post navigation */
+	.post-navigation__prev { float: right; }
+	.post-navigation__next { left: auto; right: -1px; float: left; text-align: left; }
+	.post-navigation__next:first-child { float: none; text-align: right; }
+
+	/* Post comments */
+	.post-comments__list ul ul { margin-left: 0; margin-right: 75px; }
+	.post-comments__list .comment-author .fn a { margin-right: 0; margin-left: 25px; }
+	.post-comments__list--avatars .comment-body { padding-left: 0; padding-right: 75px; }
+	.post-comments__list--avatars .avatar { left: auto; right: 0; }
+
+	/* Post pagination */
+	.post-pagination__prev { margin-right: 0; margin-left: 20px; }
+	.post-pagination__next { margin-left: 0; margin-right: 20px; }
+
+	/* Default WP pagination */
+	.navigation.pagination .prev { margin-right: 0; margin-left: 20px; }
+	.navigation.pagination .next { margin-left: 0; margin-right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		BLOG / NEWS
+	------------------------------------------------------------------------- */
+
+	/* Default archive layout */
+	.blog-post-archive--default .sticky .post__title { padding-left: 0; padding-right: 30px; }
+	.blog-post-archive--default .sticky .post__title:before { left: auto; right: 0; }
+
+	/* Grid archive layout */
+	.blog-post-archive--grid .sticky:before { left: auto; right: 20px; }
+	.blog-post-archive--grid .post__overlay-link { left: auto; right: 0; }
+
+	/* -------------------------------------------------------------------------
+		DIRECTORY
+	------------------------------------------------------------------------- */
+
+	/* Directory map */
+	.lsvr_listing-map__spinner { left: auto; right: 50%; margin-left: 0; margin-right: -15px; }
+	.lsvr_listing-map__marker-inner:before { left: auto; right: 50%; margin-left: 0; margin-right: -6px; }
+	.lsvr_listing-map__marker-inner:after { left: auto; right: 50%; margin-left: 0; margin-right: -5px; }
+	.lsvr_listing-map__infobox--has-thumb { padding-left: 0; padding-right: 100px; }
+	.lsvr_listing-map__infobox-thumb { left: auto; right: 0; border-radius: 0 5px 5px 0; }
+
+	/* Grid archive layout */
+	.lsvr_listing-post-archive--grid .post__meta { left: auto; right: 15px; }
+	.lsvr_listing-post-archive--grid .post__overlay-link { left: auto; right: 0; }
+
+	/* Single listing gallery */
+	.lsvr_listing-post-gallery__button--prev { left: auto; right: 10px; }
+	.lsvr_listing-post-gallery__button--next { right: auto; left: 10px; }
+	.lsvr_listing-post-gallery__button--prev:active .lsvr_listing-post-gallery__button-icon { left: auto; right: -2px; }
+	.lsvr_listing-post-gallery__button--next:active .lsvr_listing-post-gallery__button-icon { left: auto; right: 2px; }
+	.lsvr_listing-post-gallery .c-spinner { left: auto; right: 50%; }
+
+	/* Single */
+	.lsvr_listing-post-single .post__header { padding-right: 0; padding-left: 150px; }
+
+		/* Social links */
+		.lsvr_listing-post-single .post__social-list { right: auto; left: 0; }
+		.lsvr_listing-post-single .post__social-item { margin-left: 0; margin-right: 4px; }
+
+		/* Contact info */
+		.lsvr_listing-post-single .post__contact-item { padding-left: 0; padding-right: 35px; }
+		.lsvr_listing-post-single .post__contact-item:first-child { margin: 0; }
+		.lsvr_listing-post-single .post__contact-item-icon { left: auto; right: 0; }
+
+		/* Address and map */
+		.lsvr_listing-post-single .post__addressmap:before { left: auto; right: -20px; }
+		.lsvr_listing-post-single .post__addressmap .post__map { left: 0; right: 220px; }
+		.lsvr_listing-post-single .post__addressmap .post__map-canvas { border-radius: 3px 0 0 3px; }
+
+		/* Address */
+		.lsvr_listing-post-single .post__address { padding-left: 0; padding-right: 40px; }
+		.lsvr_listing-post-single .post__address:before { left: auto; right: 0; }
+
+		/* Opening hours */
+		.lsvr_listing-post-single .post__hours { padding-left: 20px; padding-right: 220px; }
+		.lsvr_listing-post-single .post__hours:before { left: auto; right: -30px; }
+		.lsvr_listing-post-single .post__hours-title { left: auto; right: 0; padding-left: 0; padding-right: 30px; }
+
+
+	/* -------------------------------------------------------------------------
+		EVENTS
+	------------------------------------------------------------------------- */
+
+	/* Grid archive layout */
+	.lsvr_event-post-archive--grid .post__date { left: auto; right: 15px; }
+	.lsvr_event-post-archive--grid .post__overlay-link { left: auto; right: 0; }
+
+	/* Timeline archive layout */
+	.lsvr_event-post-archive--timeline .post { margin-left: 0; margin-right: 230px; padding-left: 0; padding-right: 90px; }
+	.lsvr_event-post-archive--timeline .post:before { left: auto; right: 0; }
+	.lsvr_event-post-archive--timeline .post__inner:before { left: auto; right: -95px; }
+	.lsvr_event-post-archive--timeline .post__date { left: auto; right: -320px; }
+	.lsvr_event-post-archive--timeline .post__thumbnail { left: auto; right: -140px; }
+
+	/* Single */
+
+		/* Post status */
+		.lsvr_event-post-single .post__status { padding-left: 20px; padding-right: 60px; }
+		.lsvr_event-post-single .post__status:before { left: auto; right: 20px; }
+
+		/* Post info */
+		.lsvr_event-post-single .post__info-item { float: right; padding-right: 45px; padding-left: 40px; }
+		.lsvr_event-post-single .post__info-item:last-child { padding-left: 0; padding-right: 45px; }
+		.lsvr_event-post-single .post__info-item:before { left: auto; right: 0; }
+		.lsvr_event-post-single .post__info-item:after { left: auto; right: -30px; }
+
+		/* Address and map */
+		.lsvr_event-post-single .post__addressmap:before { left: auto; right: -20px; }
+		.lsvr_event-post-single .post__addressmap .post__map { right: 220px; left: 0; }
+
+		/* Address */
+		.lsvr_event-post-single .post__address { padding-left: 0; padding-right: 40px; }
+		.lsvr_event-post-single .post__address:before { left: auto; right: 0; }
+
+		/* Upcoming dates */
+		.lsvr_event-post-single .post__dates-title { padding-left: 50px; padding-right: 20px; }
+		.lsvr_event-post-single .post__dates-title:after { right: auto; left: 20px; }
+
+
+	/* -------------------------------------------------------------------------
+		GALLERIES
+	------------------------------------------------------------------------- */
+
+	/* Default layout */
+	.lsvr_gallery-post-archive--default .post__thumbnail-image { border-radius: 0 3px 3px 0; }
+
+	/* Grid archive layout */
+	.lsvr_gallery-post-archive--grid .post__overlay-link { left: auto; right: 0; }
+
+	/* -------------------------------------------------------------------------
+		DOCUMENTS
+	------------------------------------------------------------------------- */
+
+	/* General */
+	.lsvr_document-post-page .post__attachment-item { padding-left: 0; padding-right: 35px; }
+	.lsvr_document-post-page .post__attachment-icon { left: auto; right: 0; }
+	.lsvr_document-post-page .post__attachment-link { paddinf-right: 0; padding-left: 15px; }
+
+	/* Default archive layout */
+	.lsvr_document-post-archive--default .post__attachment-list { margin-left: 0; margin-right: 30px; }
+
+	/* Categorized attachments archive layout */
+
+		.lsvr_document-post-archive--categorized-attachments .post-tree__item-link--file { padding-right: 0; padding-left: 10px; }
+		.lsvr_document-post-archive--categorized-attachments .post-tree__item-toggle { right: auto; left: 30px; }
+
+		/* Level 1 */
+		.lsvr_document-post-archive--categorized-attachments .post-tree__item-link-holder--level-1 > .post-tree__item-icon { left: auto; right: 30px; }
+		.lsvr_document-post-archive--categorized-attachments .post-tree__item-link-holder--level-1 > .post-tree__item-icon--folder { left: auto; right: 30px; }
+		.lsvr_document-post-archive--categorized-attachments .post-tree__item-toggle--level-1 { right: auto; left: 30px; }
+
+		/* Level 2 */
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-2 { padding-left: 15px; padding-right: 45px; }
+
+		/* level 2+ */
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-2 .post-tree__item-link-holder { padding-left: 65px; padding-right: 45px; }
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-2 .post-tree__item-icon { left: auto; right: 10px; }
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-2 .post-tree__item-icon--folder { left: auto; right: 13px; }
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-2 .post-tree__item-toggle { right: auto; left: 15px; }
+
+		/* Level 3+ */
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-3,
+		.lsvr_document-post-archive--categorized-attachments .post-tree__children--level-3 .post-tree__children { margin-left: 0; margin-right: 20px; }
+
+	/* -------------------------------------------------------------------------
+		PEOPLE
+	------------------------------------------------------------------------- */
+
+	/* General */
+	.lsvr_person-post-page .post__social-icon { left: auto; right: 0; }
+
+	/* Single */
+	.lsvr_person-post-single .post__header--has-thumb { padding-left: 0; padding-right: 180px; }
+	.lsvr_person-post-single .post__thumbnail { left: auto; right: 0; }
+	.lsvr_person-post-single .post__contact-item { padding-left: 0; padding-right: 35px; }
+	.lsvr_person-post-single .post__contact-item:before { left: auto; right: 0; }
+
+	/* -------------------------------------------------------------------------
+		SEARCH RESULTS PAGE
+	------------------------------------------------------------------------- */
+
+	.search-results-page__item { padding-left: 20px; padding-right: 50px; }
+	.search-results-page__item-icon { left: auto; right: 0; }
+
+
+/* -----------------------------------------------------------------------------
+
+    5. SIDEBAR
+
+----------------------------------------------------------------------------- */
+
+.columns__sidebar--left #sidebar { padding-right: 0; padding-left: 70px; }
+.columns__sidebar--right #sidebar { padding-left: 0; padding-right: 70px; }
+
+	/* -------------------------------------------------------------------------
+		WIDGETS
+	------------------------------------------------------------------------- */
+
+	/* LSVR Pressvile Weather */
+	.lsvr-pressville-weather-widget__time-title { float: right; }
+	.lsvr-pressville-weather-widget__time-value { float: left; text-align: left; }
+	.lsvr-pressville-weather-widget__weather-item-labels { float: right; }
+	.lsvr-pressville-weather-widget__weather-item-values { float: left; text-align: left; }
+	.lsvr-pressville-weather-widget__weather-item-icon { left: 60px; right: auto; }
+
+	/* Definition list */
+	.lsvr-definition-list-widget__item-title { float: right; padding-right: 0; padding-left: 10px; }
+	.lsvr-definition-list-widget__item-text { float: left; padding-left: 0; padding-right: 10px; text-align: left; }
+
+	/* LSVR Posts */
+	.lsvr-post-list-widget__item--has-thumb .lsvr-post-list-widget__item-inner { padding-left: 0; padding-right: 115px; }
+	.lsvr-post-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* Category widget */
+	.lsvr_listing-categories-widget ul ul,
+	.lsvr_event-categories-widget ul ul,
+	.lsvr_event-locations-widget ul ul,
+	.lsvr_gallery-categories-widget ul ul,
+	.lsvr_document-categories-widget ul ul,
+	.lsvr_person-categories-widget ul ul { margin-left: 0; margin-right: 20px; }
+
+	/* LSVR Directory */
+	.lsvr_listing-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_listing-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* LSVR Events */
+	.lsvr_event-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_event-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* LSVR Event Calendar */
+	.lsvr_event-calendar-widget__weekday { float: right; text-align: left; }
+	.lsvr_event-calendar-widget__nav-btn--prev { left: auto; right: 0; }
+	.lsvr_event-calendar-widget__nav-btn--prev:active { left: auto; right: -2px; }
+	.lsvr_event-calendar-widget__nav-btn--prev > .lsvr_event-calendar-widget__nav-btn-icon:before { content: '\f054'; }
+	.lsvr_event-calendar-widget__nav-btn--next { right: auto; left: 0; }
+	.lsvr_event-calendar-widget__nav-btn--next:active { right: auto; left: -2px; }
+	.lsvr_event-calendar-widget__nav-btn--next > .lsvr_event-calendar-widget__nav-btn-icon:before { content: '\f053'; }
+	.lsvr_event-calendar-widget__day-list-wrapper .c-spinner { left: auto; right: 50%; margin-left: 0; margin-right: -15px; }
+	.lsvr_event-calendar-widget__day { float: right; }
+	.lsvr_event-calendar-widget__day:nth-child( 7n+1 ) { clear: right; }
+	.lsvr_event-calendar-widget__day-cell { text-align: left; }
+	.lsvr_event-calendar-widget__day--has-events > .lsvr_event-calendar-widget__day-cell:after { right: auto; left: 2px; }
+
+	/* LSVR Galleries */
+	.lsvr_gallery-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_gallery-list-widget__item-thumb { left: auto; right: 0; }
+
+	/* LSVR Documents */
+	.lsvr_document-list-widget__item-date { padding-right: 0; padding-left: 5px; }
+	.lsvr_document-list-widget__item-date:after { right: auto; left: 0; }
+
+	/* LSVR Document Attachments */
+	.lsvr_document-attachments-widget__item { padding-left: 0; padding-right: 35px; }
+	.lsvr_document-attachments-widget__item-icon { left: auto; right: 0; }
+
+	/* LSVR Featured Document */
+	.lsvr_document-featured-widget__attachments:before { left: auto; right: 0; }
+	.lsvr_document-featured-widget__attachment { padding-left: 0; padding-right: 35px; }
+	.lsvr_document-featured-widget__attachment-icon { left: auto; right: 0; }
+	.lsvr_document-featured-widget__attachment-link { padding-right: 0; padding-left: 15px; }
+
+	/* LSVR People */
+	.lsvr_person-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+	.lsvr_person-list-widget__item-thumb { left: auto; right: 0; }
+	.lsvr_person-list-widget__item-social-icon { left: auto; right: 0; }
+
+	/* LSVR Featured Person */
+	.lsvr_person-featured-widget__social-icon { left: auto; right: 0; }
+
+	/* Calendar */
+	.widget_calendar #prev { text-align: right; }
+	.widget_calendar #next { text-align: left; }
+
+	/* Categories */
+	.widget_categories ul ul { margin-left: 0; margin-right: 30px; }
+
+	/* Custom menu */
+	.widget_nav_menu .menu { margin-left: 0; margin-right: -15px; }
+	.widget_nav_menu .menu > li > .sub-menu,
+	.widget_nav_menu .menu > li > .sub-menu > li > .sub-menu,
+	.widget_nav_menu .menu > li > .sub-menu > li > .sub-menu > li > .sub-menu { margin-left: 0; margin-right: 30px; }
+	.widget_nav_menu .menu > li > .sub-menu > li > .sub-menu > li > .sub-menu ul { margin-left: 0; margin-right: 5px; }
+	.widget_nav_menu a { padding-left: 30px; padding-right: 15px; }
+
+	/* Pages */
+	.widget_pages ul ul { margin-left: 0; margin-right: 30px; }
+
+	/* DEPRECATED */
+
+		/* LSVR Posts */
+		.lsvr-pressville-post-list-widget__item--has-thumb { padding-left: 0; padding-right: 115px; }
+		.lsvr-pressville-post-list-widget__item-thumb { left: auto; right: 0; }
+
+
+/* -----------------------------------------------------------------------------
+
+    6. FOOTER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		SOCIAL LINKS
+	------------------------------------------------------------------------- */
+
+	.footer-social__item { float: right; margin-right: 0; margin-left: 15px; }
+	.footer-social__icon { left: auto; right: 0; }
+
+
+/* -----------------------------------------------------------------------------
+
+    7. ELEMENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		POST GRID
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-post-grid__icon { left: auto; right: -50px; }
+	.lsvr-pressville-post-grid__post-badge { left: auto; right: 15px; }
+	.lsvr-pressville-post-grid__list-button--prev { left: auto; right: -30px; }
+	.lsvr-pressville-post-grid__list-button--next { right: auto; left: -30px; }
+	.lsvr-pressville-post-grid__post-overlay-link { left: auto; right: 0; }
+
+		/* Title on the left layout */
+		@media ( min-width: 1200px ) {
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__header { float: right; }
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--prev { left: auto; right: -15px; }
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--next { right: auto; left: -15px; }
+			.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-wrapper { float: right; }
+		}
+
+	/* -------------------------------------------------------------------------
+		SIDEBAR
+	------------------------------------------------------------------------- */
+
+	.lsvr-pressville-sidebar__grid > .widget { float: right; }
+	.lsvr-pressville-sidebar__grid--1-cols > .widget { float: none; }
+	.lsvr-pressville-sidebar__grid--2-cols > .widget:nth-child( 2n+1 ),
+	.lsvr-pressville-sidebar__grid--3-cols > .widget:nth-child( 3n+1 ),
+	.lsvr-pressville-sidebar__grid--4-cols > .widget:nth-child( 4n+1 ) { clear: right; }
+
+	/* -------------------------------------------------------------------------
+		SITEMAP
+	------------------------------------------------------------------------- */
+
+	/* Level 1 */
+	.lsvr-pressville-sitemap__item--level-0 { float: right; }
+	.lsvr-pressville-sitemap__nav--1-cols .lsvr-pressville-sitemap__item--level-0 { float: none; }
+	.lsvr-pressville-sitemap__nav--2-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 2n+1 ),
+	.lsvr-pressville-sitemap__nav--3-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 3n+1 ),
+	.lsvr-pressville-sitemap__nav--4-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 4n+1 ) { clear: right; }
+
+	/* Level 2 */
+	.lsvr-pressville-sitemap__toggle { right: auto; left: 5px; }
+	.lsvr-pressville-sitemap__toggle-icon:before { left: auto; right: 0; }
+
+	/* Level 3 */
+	.lsvr-pressville-sitemap__item-link--level-2 { padding-left: 15px; padding-right: 30px; }
+
+	/* Level 4 */
+	.lsvr-pressville-sitemap__item-link--level-3 { padding-left: 15px; padding-right: 60px; }
+
+	/* -------------------------------------------------------------------------
+		LSVR ELEMENTS
+	------------------------------------------------------------------------- */
+
+	/* Alert message */
+	.lsvr-alert-message { padding-left: 20px; padding-right: 50px; }
+    .lsvr-alert-message:before { left: auto; right: 20px; }
+
+    /* CTA */
+    .lsvr-cta--has-button .lsvr-cta__inner { padding-right: 0; padding-left: 200px; }
+    .lsvr-cta__button { right: auto; left: 0; }
+
+    /* Feature */
+    .lsvr-feature--has-icon .lsvr-feature__inner { padding-left: 0; padding-right: 60px; }
+    .lsvr-feature__icon { left: auto; right: 0; }
+
+    /* Progress bar */
+    .lsvr-progress-bar__bar-label { right: auto; left: 10px; }
+
+
+/* -----------------------------------------------------------------------------
+
+    8. OTHER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		DATEPICKER
+	------------------------------------------------------------------------- */
+
+	.lsvr-datepicker { margin-left: 0; margin-right: -50px; }
+	.lsvr-datepicker .ui-datepicker-prev,
+	.lsvr-datepicker .ui-datepicker-next { left: auto; right: 20px; }
+	.lsvr-datepicker .ui-datepicker-next { right: auto; left: 20px; }
+	.lsvr-datepicker .ui-datepicker-prev:before,
+	.lsvr-datepicker .ui-datepicker-next:before { left: auto; right: 0; }
+	.lsvr-datepicker .ui-datepicker-prev:before { content: '\f105'; }
+	.lsvr-datepicker .ui-datepicker-next:before { content: '\f104'; }
+
+	/* -------------------------------------------------------------------------
+        MAGNIFIC POPUP
+    ------------------------------------------------------------------------- */
+
+	.mfp-arrow-left:before { content: '\f054'; }
+	.mfp-arrow-right:before { content: '\f053'; }
+	.mfp-arrow-left { left: auto; right: 10px; }
+	.mfp-arrow-left:active { left: auto; right: 5px; }
+	.mfp-arrow-right { right: auto; left: 10px; }
+	.mfp-arrow-right:active { right: auto; left: 5px; }
+
+	/* -------------------------------------------------------------------------
+        SLICK CAROUSEL
+    ------------------------------------------------------------------------- */
+
+    .slick-slide { float: right; }
+
+
+/* -----------------------------------------------------------------------------
+
+    9. RESPONSIVE
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        EXTRA LARGE DEVICES
+    ------------------------------------------------------------------------- */
+
+	@media ( max-width: 1400px ) {
+
+		/* Elements */
+		.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--prev { left: auto; right: -5px; }
+		.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--next { right: auto; left: -5px; }
+		.lsvr-pressville-post-grid__list-button--prev { left: auto; right: -15px; }
+		.lsvr-pressville-post-grid__list-button--next { right: auto; left: -15px; }
+
+	}
+
+    /* -------------------------------------------------------------------------
+        LARGE DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 1199px ) {
+
+		/* Core */
+
+			/* Post common components */
+			.post-archive-filter__submit { clear: right; }
+
+		/* Elements */
+		.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--prev,
+		.lsvr-pressville-post-grid__list-button--prev { left: auto; right: -15px; }
+		.lsvr-pressville-post-grid--layout-title-left .lsvr-pressville-post-grid__list-button--next,
+		.lsvr-pressville-post-grid__list-button--next { right: auto; left: -15px; }
+		.lsvr-pressville-sidebar__grid--3-cols > .widget:nth-child( 3n+1 ),
+		.lsvr-pressville-sidebar__grid--4-cols > .widget:nth-child( 4n+1 ) { clear: none; }
+		.lsvr-pressville-sidebar__grid--3-cols > .widget:nth-child( 2n+1 ),
+		.lsvr-pressville-sidebar__grid--4-cols > .widget:nth-child( 2n+1 ) { clear: right; }
+		.lsvr-pressville-sitemap__nav--3-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 3n+1 ),
+		.lsvr-pressville-sitemap__nav--4-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 4n+1 ) { clear: none; }
+		.lsvr-pressville-sitemap__nav--3-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 2n+1 ),
+		.lsvr-pressville-sitemap__nav--4-cols .lsvr-pressville-sitemap__item--level-0:nth-child( 2n+1 ) { clear: right; }
+
+	}
+
+    /* -------------------------------------------------------------------------
+        MEDIUM DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 991px ) {
+
+		/* Header */
+		#header .lsvr-container { padding-left: 0; padding-right: 0; }
+
+			/* Header titlebar */
+			.header-titlebar,
+			.header-titlebar--has-topbar,
+			.header-titlebar--large,
+			.header-titlebar--has-topbar.header-titlebar--large { padding-left: 0; padding-right: 0; }
+			.header-titlebar__inner { padding-left: 50px; padding-right: 50px; }
+			.header-titlebar__logo { margin-left: auto; margin-right: auto; }
+			.header-titlebar--has-logo .header-titlebar__text { padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; }
+			.header-titlebar__text:first-child { margin-left: 0; margin-right: 0; }
+			.header-titlebar__description { margin-left: 0; margin-right: 0; }
+
+			/* Header topbar */
+			.header-topbar { margin-left: 0; margin-right: 0; }
+			.header-menu-secondary { right: auto; margin-left: 0; margin-right: 0; padding-left: 20px; padding-right: 20px; }
+			.header-menu-secondary__list li { margin-right: 0; margin-left: 30px; }
+			.header-menu-secondary__list li:last-child { margin-left: 0; margin-right: 0; }
+
+			/* Header primary menu */
+			.header-menu-primary__list { margin-left: 0; margin-right: 0; }
+			.header-menu-primary__submenu { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+			.header-menu-primary__item-link--level-0 { padding-left: 50px; padding-right: 20px; }
+			.header-menu-primary__item-link--level-1 { padding-left: 50px; padding-right: 40px; }
+			.header-menu-primary__item-link--level-2 { padding-left: 50px; padding-right: 60px; }
+			.header-menu-primary__item-link--level-3 { padding-left: 50px; padding-right: 80px; }
+			.header-menu-primary__item-link--level-4 { padding-left: 50px; padding-right: 120px; }
+			.header-menu-primary__item-link--level-5 { padding-left: 50px; padding-right: 140px; }
+			.header-menu-primary__submenu-toggle { right: auto; left: 13px; }
+			.header-menu-primary__submenu-toggle-icon { left: auto; right: 0; }
+
+			/* Header search */
+			.header-search__wrapper { float: none; }
+			.header-search { left: auto; }
+			.header-search__options { padding-left: 20px; padding-right: 20px; }
+			.header-search__results-list { padding-left: 20px; padding-right: 20px; }
+
+		/* Core */
+
+			/* Post */
+			.post-comments__list ul ul { margin-left: 0; margin-right: 20px; }
+			.post-comments__list--avatars .comment-body { padding-left: 0; padding-right: 55px; }
+
+			/* Directory */
+			.lsvr_listing-post-single .post__header { padding-left: 0; padding-right: 0; }
+			.lsvr_listing-post-single .post__social-list { left: auto; margin-left: 0; margin-right: 0; }
+			.lsvr_listing-post-single .post__addressmap .post__map { right: auto; }
+			.lsvr_listing-post-single .post__hours { padding-left: 20px; padding-right: 20px; }
+			.lsvr_listing-post-single .post__hours-title { right: auto; padding-left: 0; padding-right: 0; }
+
+			/* Events */
+			.lsvr_event-post-archive--timeline .post { margin-left: 0; margin-right: 160px; }
+			.lsvr_event-post-archive--timeline .post__date { left: auto; right: -250px; }
+			.lsvr_event-post-single .post__addressmap .post__map { right: auto; }
+
+		/* Sidebar */
+		.columns__sidebar--left #sidebar,
+		.columns__sidebar--right #sidebar { padding-right: 0; }
+
+		/* Footer */
+		.footer__inner { padding-left: 0; padding-right: 0; }
+
+		/* Elements */
+		.lsvr-pressville-sitemap--has-bg .lsvr-pressville-sitemap__content { padding-left: 0; padding-right: 0; }
+
+		/* Other */
+		.lsvr-datepicker { margin-left: 0; margin-right: -5px; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+        SMALL DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 767px ) {
+
+		/* Core */
+
+			/* Post common components */
+			.post-archive-filter__option { float: none; }
+		 	.post-navigation__prev,
+		 	.post-navigation__next { text-align: right; }
+
+			/* Events */
+			.lsvr_event-post-archive--timeline .post { margin-left: 0; margin-right: 50px; }
+			.lsvr_event-post-archive--timeline .post__date { right: auto; margin-left: 0; margin-right: 0; text-align: right; }
+			.lsvr_event-post-single .post__info-item { float: none; margin-left: 0; margin-right: 0; padding-left: 0; }
+			.lsvr_event-post-single .post__info-item:first-child { margin-left: 0; margin-right: 0; }
+
+			/* Documents */
+			.lsvr_document-post-archive--default .post__attachment-list { margin-right: 0; }
+
+			/* People */
+			.lsvr_person-post-single .post__header--has-thumb { padding-right: 0; }
+			.lsvr_person-post-single .post__thumbnail { right: auto; }
+
+		/* Elements */
+		.lsvr-pressville-sidebar__grid { margin-left: 0; margin-right: 0; }
+		.lsvr-pressville-sidebar__grid > .widget { float: none; padding-left: 0; padding-right: 0; }
+		.lsvr-pressville-sitemap__nav--2-cols .lsvr-pressville-sitemap__item--level-0
+		.lsvr-pressville-sitemap__nav--3-cols .lsvr-pressville-sitemap__item--level-0,
+		.lsvr-pressville-sitemap__nav--4-cols .lsvr-pressville-sitemap__item--level-0 { float: none; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+        EXTRA SMALL DEVICES
+    ------------------------------------------------------------------------- */
+
+	@media ( max-width: 480px ) {
+
+		/* Core */
+
+			/* Events */
+			.lsvr_event-post-archive--timeline .post { margin-right: 0; padding-right: 0; }
+			.lsvr_event-post-archive--timeline .post__thumbnail { right: auto; }
+
+		/* Sidebar */
+
+			/* Widgets */
+			.lsvr-definition-list-widget__item-title { float: none; padding-left: 0; }
+			.lsvr-definition-list-widget__item-text { float: none; padding: 0; text-align: right; }
+
+	}

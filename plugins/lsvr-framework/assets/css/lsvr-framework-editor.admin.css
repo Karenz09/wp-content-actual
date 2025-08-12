@@ -1,0 +1,43 @@
+/* Dynamic shortcode block */
+.lsvr-shortcode-block-view { position: relative; }
+.lsvr-shortcode-block-view__html { min-height: 30px; }
+.lsvr-shortcode-block-view--loading .lsvr-shortcode-block-view__html { opacity: 0.5 }
+
+	/* Spinner */
+	/* @link https://github.com/tobiasahlin/SpinKit */
+	@-webkit-keyframes lsvr-scaleout {
+		0% { -webkit-transform: scale(0) }
+		100% {
+			-webkit-transform: scale(1.0);
+			opacity: 0;
+		}
+	}
+	@keyframes lsvr-scaleout {
+		0% {
+			-webkit-transform: scale(0);
+			transform: scale(0);
+		} 100% {
+			-webkit-transform: scale(1.0);
+			transform: scale(1.0);
+			opacity: 0;
+		}
+	}
+	.lsvr-shortcode-block-view__spinner { display: none; position: absolute; top: 50%; left: 50%; margin: -15px 0 0 -15px; width: 30px; height: 30px; border-radius: 100%;
+		background-color: #444;
+		-webkit-animation: lsvr-scaleout 1.0s infinite ease-in-out;
+		animation: lsvr-scaleout 1.0s infinite ease-in-out;
+	}
+	.lsvr-shortcode-block-view--loading .lsvr-shortcode-block-view__spinner { display: block; }
+
+/* Static shortcode block */
+.lsvr-shortcode-block-view--static { position: relative; padding: 20px 30px; border-radius: 3px; background-color: #f3f4f5; }
+.lsvr-shortcode-block-view__title { position: relative; margin: 0; padding: 0 30px 0 0; line-height: 1.4em; }
+.lsvr-shortcode-block-view__title-icon { position: absolute; top: 0; right: 0; }
+
+/* Inspector controls */
+.lsvr-control-mediaupload__image { margin: 0 0 5px 0; }
+.lsvr-control-mediaupload__button-add { margin: 0 10px 10px 0; }
+
+/* Gallery field */
+.block-editor__container .lsvr-post-metafield-gallery__item:nth-child(3n+1) { clear: none; }
+.block-editor__container .lsvr-post-metafield-gallery__item:nth-child(5n+1) { clear: left; }

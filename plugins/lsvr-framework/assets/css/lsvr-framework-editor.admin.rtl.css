@@ -1,0 +1,11 @@
+/* Dynamic shortcode block */
+.lsvr-shortcode-block-view__spinner { left: auto; right: 50%; margin-left: 0; margin-right: -15px; }
+
+/* Static shortcode block */
+.lsvr-shortcode-block-view__title { padding-right: 0; padding-left: 30px; }
+
+/* Inspector controls */
+.lsvr-control-mediaupload__button-add { margin-right: 0; margin-left: 10px; }
+
+/* Gallery field */
+.block-editor__container .lsvr-post-metafield-gallery__item:nth-child(5n+1) { clear: right; }

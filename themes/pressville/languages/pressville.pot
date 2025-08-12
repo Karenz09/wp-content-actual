@@ -1,0 +1,2856 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pressville\n"
+"POT-Creation-Date: 2021-09-14 10:16+0200\n"
+"PO-Revision-Date: 2016-04-14 13:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_html__;esc_html_e;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:12
+msgid "404"
+msgstr ""
+
+#: ../404.php:14
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:15
+msgid ""
+"The server can't find the page you requested. The page has either been moved "
+"to a different location or deleted, or you may have mistyped the URL."
+msgstr ""
+
+#: ../404.php:17
+msgid "Back to homepage"
+msgstr ""
+
+#: ../comments.php:8
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:18
+msgid "Reply to comment"
+msgstr ""
+
+#: ../comments.php:33
+msgid "There are no comments yet"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Leave a comment"
+msgstr ""
+
+#: ../functions.php:6
+#, php-format
+msgid ""
+"Method %s is deprecated. Please update all your child theme template files "
+"per the parent theme."
+msgstr ""
+
+#: ../functions.php:145
+msgid "Primary Header Menu"
+msgstr ""
+
+#: ../functions.php:146
+msgid "Secondary Header Menu"
+msgstr ""
+
+#: ../functions.php:157 ../inc/core-functions.php:165
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../functions.php:168
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../functions.php:170
+msgid ""
+"Widget area located in the footer of the site. You can change the number of "
+"columns under Customizer / Footer with Widget Columns option"
+msgstr ""
+
+#: ../functions.php:186
+msgid ""
+"To assign this sidebar to a page, set page template to \"Sidebar on the Left"
+"\" or \"Sidebar on the Right\" and then choose the sidebar under Sidebar "
+"Settings of that page. Custom Sidebars can be managed under Customizer / "
+"Custom Sidebars."
+msgstr ""
+
+#: ../inc/actions.php:276
+msgid "Close (Esc)"
+msgstr ""
+
+#: ../inc/actions.php:277
+msgid "Loading..."
+msgstr ""
+
+#: ../inc/actions.php:278
+msgid "Previous (Left arrow key)"
+msgstr ""
+
+#: ../inc/actions.php:279
+msgid "Next (Right arrow key)"
+msgstr ""
+
+#: ../inc/actions.php:280
+msgid "The image could not be loaded."
+msgstr ""
+
+#: ../inc/actions.php:281
+msgid "The content could not be loaded."
+msgstr ""
+
+#: ../inc/actions.php:348
+msgid "Search Results"
+msgstr ""
+
+#: ../inc/actions.php:375 ../inc/deprecated.php:633
+msgid "posts"
+msgstr ""
+
+#: ../inc/actions.php:379 ../inc/deprecated.php:637
+msgid "pages"
+msgstr ""
+
+#: ../inc/actions.php:402 ../inc/deprecated.php:194
+msgid "Home"
+msgstr ""
+
+#: ../inc/actions.php:415 ../inc/core-functions.php:875
+#: ../inc/deprecated.php:207
+msgid "News"
+msgstr ""
+
+#: ../inc/ajax-search.php:11
+msgid "You do not have permission to search"
+msgstr ""
+
+#: ../inc/ajax-search.php:59
+#, php-format
+msgid "Reply To: %s"
+msgstr ""
+
+#: ../inc/ajax-search.php:72
+msgid "Search results"
+msgstr ""
+
+#: ../inc/ajax-search.php:77
+msgid "Show all results"
+msgstr ""
+
+#: ../inc/ajax-search.php:90 ../inc/ajax-search.php:104
+msgid "Sorry, no results were found"
+msgstr ""
+
+#: ../inc/bbpress/actions.php:56 ../inc/deprecated.php:645
+msgid "forums"
+msgstr ""
+
+#: ../inc/bbpress/actions.php:60 ../inc/deprecated.php:649
+msgid "topics"
+msgstr ""
+
+#: ../inc/bbpress/bbpress.php:11 ../inc/bbpress/customizer-config.php:21
+msgid "Forums"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:11
+msgid "bbPress"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:18
+msgid "Archive Title"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:19
+#: ../inc/lsvr-directory/customizer-config.php:27
+#: ../inc/lsvr-documents/customizer-config.php:27
+#: ../inc/lsvr-events/customizer-config.php:27
+#: ../inc/lsvr-galleries/customizer-config.php:27
+#: ../inc/lsvr-notices/customizer-config.php:27
+#: ../inc/lsvr-people/customizer-config.php:27
+msgid ""
+"This title will be used as the archive page headline and in breadcrumbs."
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:28
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:29
+msgid "Choose sidebar position for bbPress pages."
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:32 ../inc/customizer-config.php:539
+#: ../inc/customizer-config.php:614 ../inc/customizer-config.php:1145
+#: ../inc/lsvr-directory/customizer-config.php:212
+#: ../inc/lsvr-directory/customizer-config.php:336
+#: ../inc/lsvr-documents/customizer-config.php:206
+#: ../inc/lsvr-documents/customizer-config.php:270
+#: ../inc/lsvr-events/customizer-config.php:155
+#: ../inc/lsvr-events/customizer-config.php:279
+#: ../inc/lsvr-galleries/customizer-config.php:162
+#: ../inc/lsvr-galleries/customizer-config.php:251
+#: ../inc/lsvr-notices/customizer-config.php:93
+#: ../inc/lsvr-notices/customizer-config.php:157
+#: ../inc/lsvr-people/customizer-config.php:98
+#: ../inc/lsvr-people/customizer-config.php:142 ../inc/metaboxes-config.php:18
+msgid "Disable"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:33 ../inc/customizer-config.php:481
+#: ../inc/customizer-config.php:540 ../inc/customizer-config.php:615
+#: ../inc/lsvr-directory/customizer-config.php:213
+#: ../inc/lsvr-directory/customizer-config.php:337
+#: ../inc/lsvr-documents/customizer-config.php:207
+#: ../inc/lsvr-documents/customizer-config.php:271
+#: ../inc/lsvr-events/customizer-config.php:156
+#: ../inc/lsvr-events/customizer-config.php:280
+#: ../inc/lsvr-galleries/customizer-config.php:163
+#: ../inc/lsvr-galleries/customizer-config.php:252
+#: ../inc/lsvr-notices/customizer-config.php:94
+#: ../inc/lsvr-notices/customizer-config.php:158
+#: ../inc/lsvr-people/customizer-config.php:99
+#: ../inc/lsvr-people/customizer-config.php:143
+msgid "Left"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:34 ../inc/customizer-config.php:481
+#: ../inc/customizer-config.php:541 ../inc/customizer-config.php:616
+#: ../inc/lsvr-directory/customizer-config.php:214
+#: ../inc/lsvr-directory/customizer-config.php:338
+#: ../inc/lsvr-documents/customizer-config.php:208
+#: ../inc/lsvr-documents/customizer-config.php:272
+#: ../inc/lsvr-events/customizer-config.php:157
+#: ../inc/lsvr-events/customizer-config.php:281
+#: ../inc/lsvr-galleries/customizer-config.php:164
+#: ../inc/lsvr-galleries/customizer-config.php:253
+#: ../inc/lsvr-notices/customizer-config.php:95
+#: ../inc/lsvr-notices/customizer-config.php:159
+#: ../inc/lsvr-people/customizer-config.php:100
+#: ../inc/lsvr-people/customizer-config.php:144
+msgid "Right"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:43
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/bbpress/customizer-config.php:44 ../inc/customizer-config.php:551
+#: ../inc/customizer-config.php:626
+#: ../inc/lsvr-directory/customizer-config.php:224
+#: ../inc/lsvr-directory/customizer-config.php:348
+#: ../inc/lsvr-documents/customizer-config.php:218
+#: ../inc/lsvr-documents/customizer-config.php:282
+#: ../inc/lsvr-events/customizer-config.php:167
+#: ../inc/lsvr-events/customizer-config.php:291
+#: ../inc/lsvr-galleries/customizer-config.php:174
+#: ../inc/lsvr-galleries/customizer-config.php:263
+#: ../inc/lsvr-notices/customizer-config.php:105
+#: ../inc/lsvr-notices/customizer-config.php:169
+#: ../inc/lsvr-people/customizer-config.php:110
+#: ../inc/lsvr-people/customizer-config.php:154
+msgid "Choose sidebar to display."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:340
+#: ../inc/tgm-settings.php:158
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:341
+#: ../inc/tgm-settings.php:159
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:343
+#: ../inc/tgm-settings.php:160
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:345
+#: ../inc/tgm-settings.php:161
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:346
+#: ../inc/tgm-settings.php:162
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:398
+#: ../inc/tgm-settings.php:208
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:400
+#: ../inc/classes/class-tgm-plugin-activation.php:3311
+#: ../inc/tgm-settings.php:209
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:401
+#: ../inc/tgm-settings.php:210
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:403
+#: ../inc/tgm-settings.php:211
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:405
+#: ../inc/tgm-settings.php:212
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:407
+#: ../inc/tgm-settings.php:213
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:408
+#: ../inc/tgm-settings.php:214
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:409
+#: ../inc/tgm-settings.php:215
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:410
+#: ../inc/tgm-settings.php:216
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:1042
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:1042
+#: ../inc/classes/class-tgm-plugin-activation.php:1052
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:1052
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2112
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2540
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2544
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2548
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2751
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2756
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2762
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was now activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3655
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3660
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3664
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3669
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3672
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3674
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3677
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/classes/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/classes/lsvr-pressville-header-menu-primary-walker.php:13
+#: ../template-parts/header/menu-primary.php:5
+msgid "Expand submenu"
+msgstr ""
+
+#: ../inc/core-functions.php:147
+#, php-format
+msgid "Custom Sidebar %d"
+msgstr ""
+
+#: ../inc/customizer-config.php:20
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer-config.php:27
+msgid "Default Background Image"
+msgstr ""
+
+#: ../inc/customizer-config.php:28 ../inc/customizer-config.php:53
+#: ../inc/customizer-config.php:67 ../inc/customizer-config.php:81
+#: ../inc/customizer-config.php:95
+msgid "Optimal resolution is about 2000x1000px or more."
+msgstr ""
+
+#: ../inc/customizer-config.php:36
+msgid "Background Type"
+msgstr ""
+
+#: ../inc/customizer-config.php:37
+msgid ""
+"Background can be created as a single image (Default Background Image will "
+"be used), slide show with multiple images, or a random image (randomized "
+"when loading a page)."
+msgstr ""
+
+#: ../inc/customizer-config.php:40
+msgid "Single Image"
+msgstr ""
+
+#: ../inc/customizer-config.php:41
+msgid "Image Slideshow"
+msgstr ""
+
+#: ../inc/customizer-config.php:42
+msgid "Image Slideshow (Homepage Only)"
+msgstr ""
+
+#: ../inc/customizer-config.php:43
+msgid "Random Image"
+msgstr ""
+
+#: ../inc/customizer-config.php:52
+msgid "Background Image 2"
+msgstr ""
+
+#: ../inc/customizer-config.php:66
+msgid "Background Image 3"
+msgstr ""
+
+#: ../inc/customizer-config.php:80
+msgid "Background Image 4"
+msgstr ""
+
+#: ../inc/customizer-config.php:94
+msgid "Background Image 5"
+msgstr ""
+
+#: ../inc/customizer-config.php:108
+msgid "Animated Background Image"
+msgstr ""
+
+#: ../inc/customizer-config.php:117
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../inc/customizer-config.php:118
+msgid "Set how many seconds it takes to change to the next image."
+msgstr ""
+
+#: ../inc/customizer-config.php:137
+msgid "Background Vertical Align"
+msgstr ""
+
+#: ../inc/customizer-config.php:138
+msgid "Align of background image."
+msgstr ""
+
+#: ../inc/customizer-config.php:141 ../inc/customizer-config.php:480
+msgid "Top"
+msgstr ""
+
+#: ../inc/customizer-config.php:142
+msgid "Middle"
+msgstr ""
+
+#: ../inc/customizer-config.php:143
+msgid "Bottom"
+msgstr ""
+
+#: ../inc/customizer-config.php:152 ../inc/customizer-config.php:349
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: ../inc/customizer-config.php:153 ../inc/customizer-config.php:350
+msgid "Set to 0 for invisible overlay and to 100 for solid color."
+msgstr ""
+
+#: ../inc/customizer-config.php:173
+msgid "Logo Max Width"
+msgstr ""
+
+#: ../inc/customizer-config.php:174
+msgid ""
+"Set maximum width of your header logo. You can upload your site logo under "
+"Customizer / Site Identity."
+msgstr ""
+
+#: ../inc/customizer-config.php:188
+msgid "Display Site Title"
+msgstr ""
+
+#: ../inc/customizer-config.php:189
+msgid ""
+"Show your site title in the header. It can be changed under Settings / "
+"General."
+msgstr ""
+
+#: ../inc/customizer-config.php:198
+msgid "Display Site Tagline"
+msgstr ""
+
+#: ../inc/customizer-config.php:199
+msgid ""
+"Show your site description in the header. It can be changed under Settings / "
+"General (Tagline)."
+msgstr ""
+
+#: ../inc/customizer-config.php:208
+msgid "Display Site Tagline on Front Page only"
+msgstr ""
+
+#: ../inc/customizer-config.php:222
+msgid "Center Logo"
+msgstr ""
+
+#: ../inc/customizer-config.php:223
+msgid "Center logo, tagline and description."
+msgstr ""
+
+#: ../inc/customizer-config.php:238
+msgid "Enable Sticky Navbar"
+msgstr ""
+
+#: ../inc/customizer-config.php:239
+msgid "Make primary menu stick to the top of the page."
+msgstr ""
+
+#: ../inc/customizer-config.php:248
+msgid "Enable Large Header On Home"
+msgstr ""
+
+#: ../inc/customizer-config.php:249
+msgid "Make the header on the front page larger."
+msgstr ""
+
+#: ../inc/customizer-config.php:258
+msgid "Enable Header Search"
+msgstr ""
+
+#: ../inc/customizer-config.php:259
+msgid "Search input will be displayed after clicking on the search button."
+msgstr ""
+
+#: ../inc/customizer-config.php:268
+msgid "Enable Ajax Search"
+msgstr ""
+
+#: ../inc/customizer-config.php:269
+msgid "Results will be displayed without refreshing the page."
+msgstr ""
+
+#: ../inc/customizer-config.php:283
+msgid "Display Search Filter"
+msgstr ""
+
+#: ../inc/customizer-config.php:284
+msgid "Filter the search results."
+msgstr ""
+
+#: ../inc/customizer-config.php:298
+msgid "Number of Search Results"
+msgstr ""
+
+#: ../inc/customizer-config.php:299
+msgid "Maximum number of search results to display via ajax search."
+msgstr ""
+
+#: ../inc/customizer-config.php:318
+msgid "Search Input Placeholder"
+msgstr ""
+
+#: ../inc/customizer-config.php:319
+msgid "Text to display before user starts to type."
+msgstr ""
+
+#: ../inc/customizer-config.php:321 ../inc/deprecated.php:617
+#: ../searchform.php:10 ../template-parts/header/search.php:47
+msgid "Search this site"
+msgstr ""
+
+#: ../inc/customizer-config.php:333
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer-config.php:340
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/customizer-config.php:341
+msgid "Optimal resolution is about 2000x1600px or more."
+msgstr ""
+
+#: ../inc/customizer-config.php:370
+msgid "Widget Columns"
+msgstr ""
+
+#: ../inc/customizer-config.php:371
+msgid ""
+"How many columns should be used to display widgets in the footer. You can "
+"populate the footer with widgets under Appearance / Widgets."
+msgstr ""
+
+#: ../inc/customizer-config.php:385
+msgid "Make First Column Wider"
+msgstr ""
+
+#: ../inc/customizer-config.php:405
+msgid "Show Social Links in Footer"
+msgstr ""
+
+#: ../inc/customizer-config.php:406
+msgid "You can manage them under Customizer / Social Links."
+msgstr ""
+
+#: ../inc/customizer-config.php:421
+msgid "Footer Text"
+msgstr ""
+
+#: ../inc/customizer-config.php:422
+msgid ""
+"Ideal for copyright info. You can use A, BR, EM, P and STRONG tags and "
+"CURRENT_YEAR variable to display the current year. For example: &amp;copy; "
+"CURRENT_YEAR &lt;a href=\"http://mysite.com\"&gt;MySite&lt;/a&gt;"
+msgstr ""
+
+#: ../inc/customizer-config.php:431
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../inc/customizer-config.php:438
+msgid "Manage Custom Sidebars"
+msgstr ""
+
+#: ../inc/customizer-config.php:439
+msgid ""
+"Here you can manage your custom sidebars. You can populate them with widgets "
+"under Appearance / Widgets. To assign a sidebar to a page, set its page "
+"template to \"Sidebar on the Left\" or \"Sidebar on the Right\" and then "
+"choose the sidebar under Sidebar Settings of that page. You can assign "
+"sidebars to post type pages (directory, events, galleries, etc.) in the "
+"Customizer."
+msgstr ""
+
+#: ../inc/customizer-config.php:447
+msgid "Standard Posts"
+msgstr ""
+
+#: ../inc/customizer-config.php:454
+#: ../inc/lsvr-directory/customizer-config.php:18
+#: ../inc/lsvr-documents/customizer-config.php:18
+#: ../inc/lsvr-events/customizer-config.php:18
+#: ../inc/lsvr-galleries/customizer-config.php:18
+#: ../inc/lsvr-notices/customizer-config.php:18
+#: ../inc/lsvr-people/customizer-config.php:18
+msgid "Archive Settings"
+msgstr ""
+
+#: ../inc/customizer-config.php:455
+msgid ""
+"The following settings apply to post archive page. You can change your "
+"default post archive page under Settings / Reading. Scroll down for post "
+"detail page settings."
+msgstr ""
+
+#: ../inc/customizer-config.php:462
+#: ../inc/lsvr-directory/customizer-config.php:36
+#: ../inc/lsvr-documents/customizer-config.php:36
+#: ../inc/lsvr-events/customizer-config.php:36
+#: ../inc/lsvr-galleries/customizer-config.php:36
+msgid "Archive Layout"
+msgstr ""
+
+#: ../inc/customizer-config.php:463
+msgid "Change layout for the post archive page."
+msgstr ""
+
+#: ../inc/customizer-config.php:466 ../inc/customizer-config.php:801
+#: ../inc/lsvr-directory/customizer-config.php:40
+#: ../inc/lsvr-directory/customizer-config.php:84
+#: ../inc/lsvr-documents/customizer-config.php:94
+#: ../inc/lsvr-documents/customizer-config.php:117
+#: ../inc/lsvr-events/customizer-config.php:40
+#: ../inc/lsvr-galleries/customizer-config.php:40
+#: ../inc/lsvr-galleries/customizer-config.php:84
+#: ../inc/lsvr-notices/customizer-config.php:55
+#: ../inc/lsvr-people/customizer-config.php:70
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer-config.php:467
+#: ../inc/lsvr-directory/customizer-config.php:41
+#: ../inc/lsvr-events/customizer-config.php:41
+#: ../inc/lsvr-galleries/customizer-config.php:41
+msgid "Grid"
+msgstr ""
+
+#: ../inc/customizer-config.php:476
+msgid "Archive Thumbnail Position"
+msgstr ""
+
+#: ../inc/customizer-config.php:477
+msgid "Set the thumbnail image position for posts in archive."
+msgstr ""
+
+#: ../inc/customizer-config.php:495 ../inc/lsvr-events/customizer-config.php:66
+#: ../inc/lsvr-galleries/customizer-config.php:65
+#: ../inc/lsvr-galleries/customizer-config.php:202
+#: ../inc/lsvr-people/customizer-config.php:51
+msgid "Number of Columns"
+msgstr ""
+
+#: ../inc/customizer-config.php:496 ../inc/lsvr-events/customizer-config.php:67
+#: ../inc/lsvr-galleries/customizer-config.php:66
+#: ../inc/lsvr-galleries/customizer-config.php:203
+#: ../inc/lsvr-people/customizer-config.php:52
+msgid "Divide layout into several columns."
+msgstr ""
+
+#: ../inc/customizer-config.php:515
+#: ../inc/lsvr-directory/customizer-config.php:98
+#: ../inc/lsvr-documents/customizer-config.php:137
+#: ../inc/lsvr-events/customizer-config.php:86
+#: ../inc/lsvr-galleries/customizer-config.php:98
+#: ../inc/lsvr-notices/customizer-config.php:69
+#: ../inc/lsvr-people/customizer-config.php:84
+msgid "Display Archive Categories"
+msgstr ""
+
+#: ../inc/customizer-config.php:516
+msgid "Display links to post categories."
+msgstr ""
+
+#: ../inc/customizer-config.php:525
+#: ../inc/lsvr-documents/customizer-config.php:167
+#: ../inc/lsvr-notices/customizer-config.php:79
+msgid "Display Author on Archive"
+msgstr ""
+
+#: ../inc/customizer-config.php:526
+#: ../inc/lsvr-documents/customizer-config.php:168
+#: ../inc/lsvr-notices/customizer-config.php:80
+msgid "Display post author on archive page."
+msgstr ""
+
+#: ../inc/customizer-config.php:535
+#: ../inc/lsvr-directory/customizer-config.php:208
+#: ../inc/lsvr-documents/customizer-config.php:202
+#: ../inc/lsvr-events/customizer-config.php:151
+#: ../inc/lsvr-galleries/customizer-config.php:158
+#: ../inc/lsvr-notices/customizer-config.php:89
+#: ../inc/lsvr-people/customizer-config.php:94
+msgid "Archive Sidebar Position"
+msgstr ""
+
+#: ../inc/customizer-config.php:536
+msgid "Change the post archive sidebar position."
+msgstr ""
+
+#: ../inc/customizer-config.php:550
+#: ../inc/lsvr-directory/customizer-config.php:223
+#: ../inc/lsvr-documents/customizer-config.php:217
+#: ../inc/lsvr-events/customizer-config.php:166
+#: ../inc/lsvr-galleries/customizer-config.php:173
+#: ../inc/lsvr-notices/customizer-config.php:104
+#: ../inc/lsvr-people/customizer-config.php:109
+msgid "Archive Sidebar"
+msgstr ""
+
+#: ../inc/customizer-config.php:572
+#: ../inc/lsvr-directory/customizer-config.php:244
+#: ../inc/lsvr-documents/customizer-config.php:238
+#: ../inc/lsvr-events/customizer-config.php:187
+#: ../inc/lsvr-galleries/customizer-config.php:194
+#: ../inc/lsvr-notices/customizer-config.php:125
+#: ../inc/lsvr-people/customizer-config.php:130
+msgid "Detail Settings"
+msgstr ""
+
+#: ../inc/customizer-config.php:573
+#: ../inc/lsvr-directory/customizer-config.php:245
+#: ../inc/lsvr-documents/customizer-config.php:239
+#: ../inc/lsvr-events/customizer-config.php:188
+#: ../inc/lsvr-galleries/customizer-config.php:195
+#: ../inc/lsvr-notices/customizer-config.php:126
+#: ../inc/lsvr-people/customizer-config.php:131
+msgid "The following settings apply to post detail pages."
+msgstr ""
+
+#: ../inc/customizer-config.php:580
+#: ../inc/lsvr-documents/customizer-config.php:256
+#: ../inc/lsvr-notices/customizer-config.php:133
+msgid "Display Author on Detail"
+msgstr ""
+
+#: ../inc/customizer-config.php:581
+msgid "Display post author on post detail."
+msgstr ""
+
+#: ../inc/customizer-config.php:590
+#: ../inc/lsvr-directory/customizer-config.php:252
+#: ../inc/lsvr-events/customizer-config.php:195
+msgid "Display Featured Image on Detail"
+msgstr ""
+
+#: ../inc/customizer-config.php:591
+msgid "Display post featured image on post detail."
+msgstr ""
+
+#: ../inc/customizer-config.php:600
+#: ../inc/lsvr-notices/customizer-config.php:143
+msgid "Enable Post Detail Navigation"
+msgstr ""
+
+#: ../inc/customizer-config.php:601
+#: ../inc/lsvr-notices/customizer-config.php:144
+msgid ""
+"Display links to previous and next posts at the bottom of the current post."
+msgstr ""
+
+#: ../inc/customizer-config.php:610
+#: ../inc/lsvr-directory/customizer-config.php:332
+#: ../inc/lsvr-documents/customizer-config.php:266
+#: ../inc/lsvr-events/customizer-config.php:275
+#: ../inc/lsvr-galleries/customizer-config.php:247
+#: ../inc/lsvr-notices/customizer-config.php:153
+#: ../inc/lsvr-people/customizer-config.php:138
+msgid "Detail Sidebar Position"
+msgstr ""
+
+#: ../inc/customizer-config.php:611
+msgid "Change the post detail sidebar position."
+msgstr ""
+
+#: ../inc/customizer-config.php:625
+#: ../inc/lsvr-directory/customizer-config.php:347
+#: ../inc/lsvr-documents/customizer-config.php:281
+#: ../inc/lsvr-events/customizer-config.php:290
+#: ../inc/lsvr-galleries/customizer-config.php:262
+#: ../inc/lsvr-notices/customizer-config.php:168
+#: ../inc/lsvr-people/customizer-config.php:153
+msgid "Detail Sidebar"
+msgstr ""
+
+#: ../inc/customizer-config.php:641
+msgid "Typography"
+msgstr ""
+
+#: ../inc/customizer-config.php:648
+msgid "Enable Google Fonts"
+msgstr ""
+
+#: ../inc/customizer-config.php:649
+msgid ""
+"If you disable Google Fonts, default sans-serif font will be used for all "
+"text."
+msgstr ""
+
+#: ../inc/customizer-config.php:658
+msgid "Primary Font"
+msgstr ""
+
+#: ../inc/customizer-config.php:659
+msgid ""
+"This font will be used for almost all text except some headlines and titles."
+msgstr ""
+
+#: ../inc/customizer-config.php:697
+msgid "Secondary Font"
+msgstr ""
+
+#: ../inc/customizer-config.php:698
+msgid "This font will be used for most headlines."
+msgstr ""
+
+#: ../inc/customizer-config.php:736
+msgid "Base Font Size"
+msgstr ""
+
+#: ../inc/customizer-config.php:737
+msgid ""
+"Font size of basic content text. All other font sizes will also be "
+"calculated from this value. Default font size is 16px."
+msgstr ""
+
+#: ../inc/customizer-config.php:740
+msgid "12px"
+msgstr ""
+
+#: ../inc/customizer-config.php:741
+msgid "13px"
+msgstr ""
+
+#: ../inc/customizer-config.php:742
+msgid "14px"
+msgstr ""
+
+#: ../inc/customizer-config.php:743
+msgid "15px"
+msgstr ""
+
+#: ../inc/customizer-config.php:744
+msgid "16px"
+msgstr ""
+
+#: ../inc/customizer-config.php:745
+msgid "17px"
+msgstr ""
+
+#: ../inc/customizer-config.php:746
+msgid "18px"
+msgstr ""
+
+#: ../inc/customizer-config.php:755
+msgid "Font Subsets"
+msgstr ""
+
+#: ../inc/customizer-config.php:756
+msgid ""
+"Only the Latin subset is loaded by default. If your site is in any other "
+"language than English, you may need to load an additional font subset. "
+"Please note that not all font families support all font subsets."
+msgstr ""
+
+#: ../inc/customizer-config.php:759
+msgid "Latin Extended"
+msgstr ""
+
+#: ../inc/customizer-config.php:760
+msgid "Greek"
+msgstr ""
+
+#: ../inc/customizer-config.php:761
+msgid "Greek Extended"
+msgstr ""
+
+#: ../inc/customizer-config.php:762
+msgid "Vietnamese"
+msgstr ""
+
+#: ../inc/customizer-config.php:763
+msgid "Cyrillic"
+msgstr ""
+
+#: ../inc/customizer-config.php:764
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: ../inc/customizer-config.php:777
+msgid "Colors"
+msgstr ""
+
+#: ../inc/customizer-config.php:784
+msgid "Set Colors By"
+msgstr ""
+
+#: ../inc/customizer-config.php:787
+msgid "Predefined Scheme"
+msgstr ""
+
+#: ../inc/customizer-config.php:788
+msgid "Custom Colors"
+msgstr ""
+
+#: ../inc/customizer-config.php:789
+msgid "Custom Scheme"
+msgstr ""
+
+#: ../inc/customizer-config.php:798
+msgid "Choose Predefined Skin"
+msgstr ""
+
+#: ../inc/customizer-config.php:802
+msgid "Blue & Green"
+msgstr ""
+
+#: ../inc/customizer-config.php:803
+msgid "Blue & Orange"
+msgstr ""
+
+#: ../inc/customizer-config.php:804
+msgid "Plum & Sand"
+msgstr ""
+
+#: ../inc/customizer-config.php:818
+msgid "Accent 1"
+msgstr ""
+
+#: ../inc/customizer-config.php:832
+msgid "Accent 2"
+msgstr ""
+
+#: ../inc/customizer-config.php:846
+msgid "Link"
+msgstr ""
+
+#: ../inc/customizer-config.php:860
+msgid "Text"
+msgstr ""
+
+#: ../inc/customizer-config.php:875
+msgid ""
+"Please refer to the documentation on how to generate your custom color "
+"scheme. Put your generated code into child theme's style.css file (you can "
+"access it via Appearance / Editor)."
+msgstr ""
+
+#: ../inc/customizer-config.php:887
+msgid "Social Links"
+msgstr ""
+
+#: ../inc/customizer-config.php:895
+msgid ""
+"You can add your social links either by using custom fields, predefined "
+"fields or combination of both."
+msgstr ""
+
+#: ../inc/customizer-config.php:902
+msgid "Custom Social Link 1 Icon"
+msgstr ""
+
+#: ../inc/customizer-config.php:903
+msgid ""
+"Add icon class here. Please refer to the documentation to learn more about "
+"icons."
+msgstr ""
+
+#: ../inc/customizer-config.php:911
+msgid "Custom Social Link 1 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:912
+msgid "Absolute URL to your social profile."
+msgstr ""
+
+#: ../inc/customizer-config.php:920
+msgid "Custom Social Link 1 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:921
+msgid "This label will appear when you hover over the icon."
+msgstr ""
+
+#: ../inc/customizer-config.php:929
+msgid "Custom Social Link 2 Icon"
+msgstr ""
+
+#: ../inc/customizer-config.php:937
+msgid "Custom Social Link 2 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:945
+msgid "Custom Social Link 2 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:953
+msgid "Custom Social Link 3 Icon"
+msgstr ""
+
+#: ../inc/customizer-config.php:961
+msgid "Custom Social Link 3 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:969
+msgid "Custom Social Link 3 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:983
+msgid "Predefined Social Links"
+msgstr ""
+
+#: ../inc/customizer-config.php:984
+msgid ""
+"Insert URLs into inputs of social networks which you want to display. You "
+"can drag and drop items to change the order."
+msgstr ""
+
+#: ../inc/customizer-config.php:988
+msgid "Email"
+msgstr ""
+
+#: ../inc/customizer-config.php:992
+msgid "500px"
+msgstr ""
+
+#: ../inc/customizer-config.php:996
+msgid "Bandcamp"
+msgstr ""
+
+#: ../inc/customizer-config.php:1000
+msgid "Behance"
+msgstr ""
+
+#: ../inc/customizer-config.php:1004
+msgid "CodePen"
+msgstr ""
+
+#: ../inc/customizer-config.php:1008
+msgid "DeviantArt"
+msgstr ""
+
+#: ../inc/customizer-config.php:1012
+msgid "Dribbble"
+msgstr ""
+
+#: ../inc/customizer-config.php:1016
+msgid "Dropbox"
+msgstr ""
+
+#: ../inc/customizer-config.php:1020
+msgid "Etsy"
+msgstr ""
+
+#: ../inc/customizer-config.php:1024
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/customizer-config.php:1028
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/customizer-config.php:1032
+msgid "Foursquare"
+msgstr ""
+
+#: ../inc/customizer-config.php:1036
+msgid "Github"
+msgstr ""
+
+#: ../inc/customizer-config.php:1040
+msgid "Google+"
+msgstr ""
+
+#: ../inc/customizer-config.php:1044
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/customizer-config.php:1048
+msgid "last.fm"
+msgstr ""
+
+#: ../inc/customizer-config.php:1052
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/customizer-config.php:1056
+msgid "Odnoklassniki"
+msgstr ""
+
+#: ../inc/customizer-config.php:1060
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/customizer-config.php:1064
+msgid "QQ"
+msgstr ""
+
+#: ../inc/customizer-config.php:1068
+msgid "Reddit"
+msgstr ""
+
+#: ../inc/customizer-config.php:1072
+msgid "Skype"
+msgstr ""
+
+#: ../inc/customizer-config.php:1076
+msgid "Slack"
+msgstr ""
+
+#: ../inc/customizer-config.php:1080
+msgid "Snapchat"
+msgstr ""
+
+#: ../inc/customizer-config.php:1084
+msgid "TripAdvisor"
+msgstr ""
+
+#: ../inc/customizer-config.php:1088
+msgid "Tumblr"
+msgstr ""
+
+#: ../inc/customizer-config.php:1092
+msgid "Twitch"
+msgstr ""
+
+#: ../inc/customizer-config.php:1096
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/customizer-config.php:1100
+msgid "Vimeo"
+msgstr ""
+
+#: ../inc/customizer-config.php:1104
+msgid "VK"
+msgstr ""
+
+#: ../inc/customizer-config.php:1108
+msgid "Yahoo"
+msgstr ""
+
+#: ../inc/customizer-config.php:1112
+msgid "Yelp"
+msgstr ""
+
+#: ../inc/customizer-config.php:1116
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/customizer-config.php:1126
+msgid "Languages"
+msgstr ""
+
+#: ../inc/customizer-config.php:1134
+msgid ""
+"The following settings are useful if you want to run your site in more than "
+"one language. If you just want to translate the theme to a single language, "
+"please check out the documentation on how to do that."
+msgstr ""
+
+#: ../inc/customizer-config.php:1141
+msgid "Language Switcher"
+msgstr ""
+
+#: ../inc/customizer-config.php:1142
+msgid ""
+"Display links to other language versions. WPML plugin is required for \"WPML "
+"Generated\" option to work."
+msgstr ""
+
+#: ../inc/customizer-config.php:1146
+msgid "WPML Generated"
+msgstr ""
+
+#: ../inc/customizer-config.php:1147
+msgid "Custom Links"
+msgstr ""
+
+#: ../inc/customizer-config.php:1156
+msgid "Language 1 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:1157
+msgid "For example \"EN\", \"DE\" or \"ES\"."
+msgstr ""
+
+#: ../inc/customizer-config.php:1170
+msgid "Language 1 Code"
+msgstr ""
+
+#: ../inc/customizer-config.php:1171
+msgid ""
+"It will be used to determine the active language. For example \"en_US\", "
+"\"de_DE\" or \"es_ES\"."
+msgstr ""
+
+#: ../inc/customizer-config.php:1184
+msgid "Language 1 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:1185
+msgid "For example \"http://mysite.com/en\"."
+msgstr ""
+
+#: ../inc/customizer-config.php:1198
+msgid "Language 2 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:1211
+msgid "Language 2 Code"
+msgstr ""
+
+#: ../inc/customizer-config.php:1224
+msgid "Language 2 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:1237
+msgid "Language 3 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:1250
+msgid "Language 3 Code"
+msgstr ""
+
+#: ../inc/customizer-config.php:1263
+msgid "Language 3 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:1276
+msgid "Language 4 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:1289
+msgid "Language 4 Code"
+msgstr ""
+
+#: ../inc/customizer-config.php:1302
+msgid "Language 4 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:1315
+msgid "Language 5 Label"
+msgstr ""
+
+#: ../inc/customizer-config.php:1328
+msgid "Language 5 Code"
+msgstr ""
+
+#: ../inc/customizer-config.php:1341
+msgid "Language 5 URL"
+msgstr ""
+
+#: ../inc/customizer-config.php:1353
+msgid "Map Settings"
+msgstr ""
+
+#: ../inc/customizer-config.php:1360
+msgid "Maps Provider"
+msgstr ""
+
+#: ../inc/customizer-config.php:1361
+msgid "Choose map provider for built-in maps (for Directory and Events)."
+msgstr ""
+
+#: ../inc/customizer-config.php:1364
+msgid "Disable built-in maps"
+msgstr ""
+
+#: ../inc/customizer-config.php:1365
+msgid "Google Maps"
+msgstr ""
+
+#: ../inc/customizer-config.php:1366
+msgid "Mapbox"
+msgstr ""
+
+#: ../inc/customizer-config.php:1367
+msgid "Open Street Map"
+msgstr ""
+
+#: ../inc/customizer-config.php:1376
+msgid "Google Maps API Key"
+msgstr ""
+
+#: ../inc/customizer-config.php:1377
+msgid ""
+"API key is needed to display Google Maps. More info on how to obtain your "
+"own API key:"
+msgstr ""
+
+#: ../inc/customizer-config.php:1390
+msgid "Google Map Style"
+msgstr ""
+
+#: ../inc/customizer-config.php:1391
+msgid "This will affect only the \"terrain\" and \"roadmap\" map styles."
+msgstr ""
+
+#: ../inc/customizer-config.php:1394
+msgid "Use default map style"
+msgstr ""
+
+#: ../inc/customizer-config.php:1395
+msgid "Add custom map style"
+msgstr ""
+
+#: ../inc/customizer-config.php:1409
+msgid "Google Maps Style"
+msgstr ""
+
+#: ../inc/customizer-config.php:1410
+msgid ""
+"Override default custom style for Google maps with your own. Data must be "
+"provided in JavaScript array format. More info:"
+msgstr ""
+
+#: ../inc/customizer-config.php:1430
+msgid "Mapbox API Key"
+msgstr ""
+
+#: ../inc/customizer-config.php:1431
+msgid ""
+"API key is needed to display Mapbox maps. You can obtain your key at Mapbox "
+"site:"
+msgstr ""
+
+#: ../inc/customizer-config.php:1444
+msgid "Misc"
+msgstr ""
+
+#: ../inc/customizer-config.php:1451
+msgid "OpenWeatherMap.org API Key"
+msgstr ""
+
+#: ../inc/customizer-config.php:1452
+msgid ""
+"Please insert your API key if you want to use LSVR Pressville Weather widget."
+msgstr ""
+
+#: ../inc/customizer-config.php:1466
+msgid "Search Results Per Page"
+msgstr ""
+
+#: ../inc/customizer-config.php:1467
+msgid "Number of search results per page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/customizer-config.php:1481
+msgid "Search Results Excerpt"
+msgstr ""
+
+#: ../inc/customizer-config.php:1482
+msgid "Display post excerpt on search results page."
+msgstr ""
+
+#: ../inc/customizer-config.php:1497
+msgid "Back to Top Button"
+msgstr ""
+
+#: ../inc/customizer-config.php:1498
+msgid "Display a link to the top of the page."
+msgstr ""
+
+#: ../inc/customizer-config.php:1501
+msgid "Disable back to top button"
+msgstr ""
+
+#: ../inc/customizer-config.php:1502
+msgid "Enable back to top button"
+msgstr ""
+
+#: ../inc/customizer-config.php:1503
+msgid "Enable on dektop only"
+msgstr ""
+
+#: ../inc/customizer-config.php:1504
+msgid "Enable on mobile only"
+msgstr ""
+
+#: ../inc/customizer-config.php:1513
+msgid "Back to Top Button Threshold"
+msgstr ""
+
+#: ../inc/customizer-config.php:1514
+msgid ""
+"Set how many pixels have to be scrolled down before back to top button "
+"appears."
+msgstr ""
+
+#: ../inc/customizer-config.php:1539
+msgid "Improve Accessibility"
+msgstr ""
+
+#: ../inc/customizer-config.php:1540
+msgid ""
+"Improve website accessibility for screen readers and keyboard users. Disable "
+"if you are using a 3rd party soluton for that."
+msgstr ""
+
+#: ../inc/demo-import-config.php:11
+msgid "Pressville Content"
+msgstr ""
+
+#: ../inc/demo-import-config.php:13 ../inc/demo-import-config.php:19
+#: ../inc/demo-import-config.php:25
+msgid ""
+"Please note that demo images are not included. After you import this demo, "
+"don't forget to regenerate your events under Tools / Regen. Events."
+msgstr ""
+
+#: ../inc/demo-import-config.php:16
+msgid "Pressville Customizer"
+msgstr ""
+
+#: ../inc/demo-import-config.php:22
+msgid "Pressville Widgets"
+msgstr ""
+
+#: ../inc/deprecated.php:14 ../inc/lsvr-events/deprecated.php:45
+msgid "Categories:"
+msgstr ""
+
+#: ../inc/deprecated.php:19 ../inc/deprecated.php:21
+#: ../inc/lsvr-events/deprecated.php:50 ../inc/lsvr-events/deprecated.php:52
+#: ../template-parts/archive-categories.php:15
+#: ../template-parts/archive-categories.php:22
+msgid "All"
+msgstr ""
+
+#: ../inc/deprecated.php:380 ../template-parts/footer/back-to-top-button.php:8
+msgid "Back to top"
+msgstr ""
+
+#: ../inc/deprecated.php:404 ../inc/deprecated.php:559
+#: ../template-parts/header/languages-mobile.php:23
+#: ../template-parts/header/languages.php:6
+msgid "Choose language:"
+msgstr ""
+
+#: ../inc/deprecated.php:442 ../template-parts/header/mobile-toggle.php:9
+msgid "Menu"
+msgstr ""
+
+#: ../inc/deprecated.php:610 ../searchform.php:7
+#: ../template-parts/header/search.php:39
+msgid "Search:"
+msgstr ""
+
+#: ../inc/deprecated.php:619
+msgid "Search"
+msgstr ""
+
+#: ../inc/deprecated.php:673 ../template-parts/header/search-filter.php:6
+msgid "Filter results:"
+msgstr ""
+
+#: ../inc/deprecated.php:680 ../template-parts/header/search-filter.php:13
+msgid "everything"
+msgstr ""
+
+#: ../inc/lsvr-directory/actions.php:162
+msgid "listings"
+msgstr ""
+
+#: ../inc/lsvr-directory/ajax-directory-map.php:17
+msgid "You do not have permission to access this data"
+msgstr ""
+
+#: ../inc/lsvr-directory/ajax-directory-map.php:48
+msgid "More Details"
+msgstr ""
+
+#: ../inc/lsvr-directory/ajax-directory-map.php:49
+#: ../template-parts/archive-post-meta.php:34
+#: ../template-parts/lsvr_gallery/archive-post-meta.php:22
+#: ../template-parts/single-post-meta.php:30
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: ../inc/lsvr-directory/ajax-directory-map.php:130
+#: ../inc/lsvr-directory/ajax-directory-map.php:134
+msgid "No listings"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:11
+#: ../inc/lsvr-directory/customizer-config.php:29
+#: ../inc/lsvr-directory/lsvr-directory.php:47
+msgid "Directory"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:19
+#: ../inc/lsvr-documents/customizer-config.php:19
+#: ../inc/lsvr-events/customizer-config.php:19
+#: ../inc/lsvr-galleries/customizer-config.php:19
+#: ../inc/lsvr-notices/customizer-config.php:19
+#: ../inc/lsvr-people/customizer-config.php:19
+msgid ""
+"The following settings apply to post archive page. You can change your "
+"default post archive URL under Settings / Permalinks. Scroll down for post "
+"detail page settings."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:26
+msgid "Directory Archive Title"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:37
+msgid "Change layout for the listing archive page."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:50
+msgid "Archive Posts Per Page"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:51
+msgid ""
+"How many listing posts should be displayed per page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:65
+msgid "Archive Number of Columns"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:66
+msgid "Divide archive into several columns."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:80
+#: ../inc/lsvr-documents/customizer-config.php:90
+#: ../inc/lsvr-galleries/customizer-config.php:80
+#: ../inc/lsvr-notices/customizer-config.php:51
+#: ../inc/lsvr-people/customizer-config.php:66
+msgid "Archive Order"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:81
+msgid "Choose how directory listings will be ordered on the archive page."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:85
+#: ../inc/lsvr-galleries/customizer-config.php:85
+#: ../inc/lsvr-notices/customizer-config.php:56
+#: ../inc/lsvr-people/customizer-config.php:71
+msgid "By date, newest first"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:86
+#: ../inc/lsvr-galleries/customizer-config.php:86
+#: ../inc/lsvr-notices/customizer-config.php:57
+#: ../inc/lsvr-people/customizer-config.php:72
+msgid "By date, oldest first"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:87
+#: ../inc/lsvr-galleries/customizer-config.php:87
+#: ../inc/lsvr-notices/customizer-config.php:58
+#: ../inc/lsvr-people/customizer-config.php:73
+msgid "By title, ascending"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:88
+#: ../inc/lsvr-galleries/customizer-config.php:88
+#: ../inc/lsvr-notices/customizer-config.php:59
+#: ../inc/lsvr-people/customizer-config.php:74
+msgid "By title, descending"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:89
+#: ../inc/lsvr-documents/customizer-config.php:99
+#: ../inc/lsvr-galleries/customizer-config.php:89
+#: ../inc/lsvr-notices/customizer-config.php:60
+#: ../inc/lsvr-people/customizer-config.php:75
+msgid "Random"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:99
+msgid "Display links to listing categories."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:108
+msgid "Crop Thumbnails on Archive"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:109
+msgid "Make each listing thumbnail the same size."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:123
+msgid "Display Map"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:124
+msgid "Display the directory map."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:138
+msgid "Archive Map Type"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:139
+msgid "Choose the type of directory map."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:142
+#: ../inc/lsvr-directory/customizer-config.php:281
+#: ../inc/lsvr-events/customizer-config.php:224
+msgid "Roadmap"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:143
+#: ../inc/lsvr-directory/customizer-config.php:282
+#: ../inc/lsvr-events/customizer-config.php:225
+msgid "Terrain"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:144
+#: ../inc/lsvr-directory/customizer-config.php:283
+#: ../inc/lsvr-events/customizer-config.php:226
+msgid "Satellite"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:145
+#: ../inc/lsvr-directory/customizer-config.php:284
+#: ../inc/lsvr-events/customizer-config.php:227
+msgid "Hybrid"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:166
+msgid "Archive Map Zoom"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:167
+msgid "Set zoom level for directory map."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:193
+msgid "Enable Masonry on Archive"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:194
+msgid "Display listings in masonry."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:209
+msgid "Change the listing post archive sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:253
+msgid "Featured image will be displayed only if there is no listing gallery."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:262
+msgid "Display Map on Detail"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:263
+msgid "Display map on listing detail page."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:277
+#: ../inc/lsvr-events/customizer-config.php:220
+msgid "Detail Map Type"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:278
+msgid "Choose the type of the map on listing detail page."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:305
+#: ../inc/lsvr-events/customizer-config.php:248
+msgid "Detail Map Zoom"
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:306
+#: ../inc/lsvr-events/customizer-config.php:249
+msgid "Set zoom level for the map."
+msgstr ""
+
+#: ../inc/lsvr-directory/customizer-config.php:333
+msgid "Change the listing post detail sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-directory/deprecated.php:176
+#: ../template-parts/lsvr_listing/single-addressmap.php:15
+msgid "Open in Google Maps"
+msgstr ""
+
+#: ../inc/lsvr-directory/deprecated.php:218
+#: ../template-parts/lsvr_listing/single-opening-hours.php:43
+msgid "Closed"
+msgstr ""
+
+#: ../inc/lsvr-documents/actions.php:108
+msgid "documents"
+msgstr ""
+
+#: ../inc/lsvr-documents/classes/lsvr-pressville-document-categorized-attachments.php:46
+#: ../template-parts/lsvr_document/archive-categorized-attachments.php:3
+msgid "Expand list"
+msgstr ""
+
+#: ../inc/lsvr-documents/classes/lsvr-pressville-document-categorized-attachments.php:162
+#: ../template-parts/lsvr_document/archive-categorized-attachments.php:32
+#: ../template-parts/lsvr_document/attachments.php:38
+msgid "File extension:"
+msgstr ""
+
+#: ../inc/lsvr-documents/classes/lsvr-pressville-document-categorized-attachments.php:170
+#: ../template-parts/lsvr_document/archive-categorized-attachments.php:40
+#: ../template-parts/lsvr_document/attachments.php:47
+msgid "File size:"
+msgstr ""
+
+#: ../inc/lsvr-documents/classes/lsvr-pressville-document-categorized-attachments.php:178
+#: ../inc/lsvr-documents/deprecated.php:52
+#: ../inc/lsvr-documents/deprecated.php:145
+#: ../template-parts/lsvr_document/archive-categorized-attachments.php:48
+#: ../template-parts/lsvr_document/attachments.php:55
+msgid "External"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:11
+#: ../inc/lsvr-documents/customizer-config.php:29
+#: ../inc/lsvr-documents/lsvr-documents.php:27
+msgid "Documents"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:26
+msgid "Document Archive Title"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:37
+msgid "Change layout for document archive page."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:40
+msgid "Post View"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:41
+msgid "Attachment View"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:50
+#: ../inc/lsvr-events/customizer-config.php:51
+#: ../inc/lsvr-galleries/customizer-config.php:50
+#: ../inc/lsvr-notices/customizer-config.php:36
+#: ../inc/lsvr-people/customizer-config.php:36
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:51
+msgid ""
+"How many document posts should be displayed per page. Set to 0 to display "
+"all."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:70
+msgid "Attachments Per Post"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:71
+msgid ""
+"How many document attachments should be displayed per post on the archive "
+"page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:91
+msgid "How document posts should be ordered."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:95
+msgid "Published date, ascending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:96
+msgid "Published date, descending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:97
+msgid "Post title, ascending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:98
+msgid "Post title, descending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:113
+msgid "Archive Order of Attachments"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:114
+msgid "How document attachments should be ordered."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:118
+msgid "Parent post published date, ascending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:119
+msgid "Parent post published date, descending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:120
+msgid "Attachment filename, ascending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:121
+msgid "Attachment filename, descending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:122
+msgid "Attachment title, ascending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:123
+msgid "Attachment title, descending"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:138
+msgid "Display links to document categories."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:152
+#: ../inc/lsvr-galleries/customizer-config.php:138
+msgid "Display Date on Archive"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:153
+msgid "Display post date on archive page."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:182
+msgid "Display Attachment Titles"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:183
+msgid ""
+"Display attachment titles instead of file names. You can change titles by "
+"editing your files under Media."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:192
+msgid "Excluded Categories"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:193
+msgid ""
+"List of category IDs or slugs separated by comma. Documents from these "
+"categories won't be displayed on the default archive page (but they will "
+"still be displayed on the category archive page for that particular "
+"category)."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:203
+msgid "Change the document post archive sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:246
+#: ../inc/lsvr-galleries/customizer-config.php:227
+msgid "Display Date on Detail"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:247
+msgid "Display document post date on post detail."
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:257
+msgid "Display document post author on post detail"
+msgstr ""
+
+#: ../inc/lsvr-documents/customizer-config.php:267
+msgid "Change the document post detail sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-events/actions.php:136
+msgid "events"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:11
+#: ../inc/lsvr-events/customizer-config.php:29
+#: ../inc/lsvr-events/lsvr-events.php:27
+msgid "Events"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:26
+msgid "Event Archive Title"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:37
+msgid "Change layout for event archive page."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:42
+msgid "Timeline"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:52
+msgid ""
+"How many event posts should be displayed per page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:87
+msgid "Display links to event categories."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:96
+msgid "Display Filter"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:97
+msgid "Allow your visitors to filter events by date."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:106
+msgid "Group By Month"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:107
+msgid "Divide the archive page into month sections."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:121
+msgid "Enable Masonry"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:122
+msgid "Display events in masonry."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:136
+#: ../inc/lsvr-galleries/customizer-config.php:123
+msgid "Crop Thumbnails"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:137
+msgid "Make each event thumbnail the same size."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:152
+msgid "Change the event post archive sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:196
+msgid "Display featured image on event detail page."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:205
+msgid "Display Map On Detail"
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:206
+msgid "Display the event location on event detail page."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:221
+msgid "Choose the type of map on event detail page."
+msgstr ""
+
+#: ../inc/lsvr-events/customizer-config.php:276
+msgid "Change the event post detail sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:100
+#: ../template-parts/lsvr_event/archive-filter.php:21
+msgid "Date from:"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:103 ../inc/lsvr-events/deprecated.php:115
+#: ../template-parts/lsvr_event/archive-filter.php:24
+#: ../template-parts/lsvr_event/archive-filter.php:41
+msgid "Choose Date"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:112
+#: ../template-parts/lsvr_event/archive-filter.php:38
+msgid "Date to:"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:128
+#: ../template-parts/lsvr_event/archive-filter.php:59
+msgid "Filter"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:136
+#: ../template-parts/lsvr_event/archive-filter.php:69
+msgid "Reset filter"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:229
+#: ../template-parts/lsvr_event/archive-pagination.php:6
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:237
+#: ../template-parts/lsvr_event/archive-pagination.php:15
+#: ../template-parts/lsvr_listing/single-gallery.php:24
+#: ../template-parts/lsvr_listing/single-gallery.php:29
+#: ../template-parts/single-navigation.php:18
+msgid "Previous"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:291
+#: ../template-parts/lsvr_event/archive-pagination.php:81
+#: ../template-parts/single-navigation.php:42
+msgid "Next"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:399 ../inc/lsvr-events/lsvr-events.php:263
+msgid "day"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:409 ../inc/lsvr-events/lsvr-events.php:274
+msgid "1st"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:410 ../inc/lsvr-events/lsvr-events.php:275
+msgid "2nd"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:411 ../inc/lsvr-events/lsvr-events.php:276
+msgid "3rd"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:412 ../inc/lsvr-events/lsvr-events.php:277
+msgid "4th"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:413 ../inc/lsvr-events/lsvr-events.php:278
+msgid "last"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:416 ../inc/lsvr-events/lsvr-events.php:291
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:419 ../inc/lsvr-events/lsvr-events.php:295
+msgid "weekday"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:422 ../inc/lsvr-events/lsvr-events.php:298
+msgid "week"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:425 ../inc/lsvr-events/lsvr-events.php:301
+msgid "two weeks"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:428 ../inc/lsvr-events/lsvr-events.php:304
+msgid "month"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:431 ../inc/lsvr-events/lsvr-events.php:307
+msgid "two months"
+msgstr ""
+
+#: ../inc/lsvr-events/deprecated.php:434 ../inc/lsvr-events/lsvr-events.php:310
+msgid "year"
+msgstr ""
+
+#: ../inc/lsvr-events/frontend-functions.php:185
+#: ../inc/lsvr-events/frontend-functions.php:214
+msgid "All-day event"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:281
+msgid "Monday"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:282
+msgid "Tuesday"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:283
+msgid "Wednesday"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:284
+msgid "Thursday"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:285
+msgid "Friday"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:286
+msgid "Saturday"
+msgstr ""
+
+#: ../inc/lsvr-events/lsvr-events.php:287
+msgid "Sunday"
+msgstr ""
+
+#: ../inc/lsvr-galleries/actions.php:124
+msgid "galleries"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:11
+#: ../inc/lsvr-galleries/customizer-config.php:29
+#: ../inc/lsvr-galleries/lsvr-galleries.php:27
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:26
+msgid "Gallery Archive Title"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:37
+msgid "Change layout for gallery archive page."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:51
+msgid ""
+"How many gallery posts should be displayed per page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:81
+msgid "Choose how galleries will be ordered on the archive page."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:99
+msgid "Display links to gallery categories."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:108
+msgid "Enable Archive Masonry"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:109
+msgid "Display gallery posts in masonry."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:124
+msgid "Make each gallery thumbnail the same size."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:139
+msgid "Display the gallery post date on post archive."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:148
+msgid "Display Image Count on Archive"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:149
+msgid "Display the number of gallery images on post archive."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:159
+msgid "Change the gallery post archive sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:217
+msgid "Enable Masonry on Detail"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:218
+msgid "Display gallery images in masonry layout."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:228
+msgid "Display the gallery post date on post detail."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:237
+msgid "Enable Gallery Detail Navigation"
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:238
+msgid ""
+"Display links to previous and next posts at the bottom of the current "
+"gallery."
+msgstr ""
+
+#: ../inc/lsvr-galleries/customizer-config.php:248
+msgid "Change the gallery post detail sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-notices/actions.php:98
+msgid "notices"
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:11
+#: ../inc/lsvr-notices/customizer-config.php:29
+#: ../inc/lsvr-notices/lsvr-notices.php:21
+msgid "Notices"
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:26
+msgid "Notice Archive Title"
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:37
+msgid ""
+"How many notice posts should be displayed per page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:52
+msgid "Choose how notices will be ordered on the archive page."
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:70
+msgid "Display links to notice categories."
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:90
+msgid "Change the notice post archive sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:134
+msgid "Display post author on detail page."
+msgstr ""
+
+#: ../inc/lsvr-notices/customizer-config.php:154
+msgid "Change the notice post detail sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-people/actions.php:84
+msgid "people"
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:11
+#: ../inc/lsvr-people/customizer-config.php:29
+#: ../inc/lsvr-people/lsvr-people.php:22
+msgid "People"
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:26
+msgid "Person Archive Title"
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:37
+msgid ""
+"How many person posts should be displayed per page. Set to 0 to display all."
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:67
+msgid "Choose how people will be ordered on the archive page."
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:85
+msgid "Display links to person categories."
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:95
+msgid "Change the person post archive sidebar position."
+msgstr ""
+
+#: ../inc/lsvr-people/customizer-config.php:139
+msgid "Change the person post detail sidebar position."
+msgstr ""
+
+#: ../inc/metaboxes-config.php:8
+msgid "Sidebar Settings"
+msgstr ""
+
+#: ../inc/metaboxes-config.php:16
+msgid "Choose Sidebar To Display"
+msgstr ""
+
+#: ../inc/metaboxes-config.php:17
+msgid ""
+"Sidebar will be displayed only if the selected page template supports "
+"sidebars. You can manage sidebar widgets under Appearance / Widgets."
+msgstr ""
+
+#: ../page-templates/default-without-title.php:2
+msgid "Default w/o Title"
+msgstr ""
+
+#: ../page-templates/fullwidth-without-title.php:2
+msgid "Fullwidth w/o Title"
+msgstr ""
+
+#: ../page-templates/fullwidth.php:2
+msgid "Fullwidth"
+msgstr ""
+
+#: ../page-templates/narrow.php:2
+msgid "Narrow Content"
+msgstr ""
+
+#: ../page-templates/sidebar-left.php:2
+msgid "Sidebar on the Left"
+msgstr ""
+
+#: ../page-templates/sidebar-right.php:2
+msgid "Sidebar on the Right"
+msgstr ""
+
+#: ../search.php:33
+#, php-format
+msgid "Showing %d results for \"%s\":"
+msgstr ""
+
+#: ../search.php:74
+#, php-format
+msgid "No results for \"%s\"."
+msgstr ""
+
+#: ../searchform.php:11 ../template-parts/header/search.php:48
+msgid "Search field"
+msgstr ""
+
+#: ../searchform.php:13 ../template-parts/header/search.php:50
+msgid "Submit search"
+msgstr ""
+
+#: ../template-parts/accessibility-links.php:3
+msgid "Skip to content"
+msgstr ""
+
+#: ../template-parts/accessibility-links.php:6
+msgid "Skip to main navigation"
+msgstr ""
+
+#: ../template-parts/accessibility-links.php:9
+msgid "Skip to footer"
+msgstr ""
+
+#: ../template-parts/archive-categories.php:6
+msgid "Categories"
+msgstr ""
+
+#: ../template-parts/archive-categories.php:21
+#: ../template-parts/archive-categories.php:35
+msgid "Active category"
+msgstr ""
+
+#: ../template-parts/archive-post-meta.php:24
+#: ../template-parts/single-post-meta.php:20
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: ../template-parts/archive-post-meta.php:33
+#: ../template-parts/lsvr_gallery/archive-post-meta.php:21
+#: ../template-parts/single-post-meta.php:29
+msgid "Category"
+msgstr ""
+
+#: ../template-parts/archive-post-meta.php:45
+#, php-format
+msgid "(%s Comment)"
+msgid_plural "(%s Comments)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../template-parts/blog/archive-layout-default.php:64
+#: ../template-parts/blog/archive-layout-grid.php:47
+#: ../template-parts/lsvr_document/archive-layout-default.php:55
+msgid "Read More"
+msgstr ""
+
+#: ../template-parts/breadcrumbs.php:21
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../template-parts/footer/social-links.php:5
+#: ../template-parts/lsvr_listing/single-social-links.php:3
+#: ../template-parts/lsvr_person/social-links.php:3
+msgid "Social Media Links"
+msgstr ""
+
+#: ../template-parts/header/branding.php:6
+msgid "Site logo"
+msgstr ""
+
+#: ../template-parts/header/languages-mobile.php:9
+#: ../template-parts/header/languages-mobile.php:13
+msgid "Show languages"
+msgstr ""
+
+#: ../template-parts/header/languages-mobile.php:14
+msgid "Hide languages"
+msgstr ""
+
+#: ../template-parts/header/menu-primary.php:6
+msgid "Collapse submenu"
+msgstr ""
+
+#: ../template-parts/header/mobile-toggle.php:3
+#: ../template-parts/header/mobile-toggle.php:7
+msgid "Expand menu"
+msgstr ""
+
+#: ../template-parts/header/mobile-toggle.php:8
+msgid "Collapse menu"
+msgstr ""
+
+#: ../template-parts/header/search.php:9 ../template-parts/header/search.php:10
+msgid "Expand search"
+msgstr ""
+
+#: ../template-parts/header/search.php:11
+#: ../template-parts/header/search.php:65
+msgid "Collapse search"
+msgstr ""
+
+#: ../template-parts/lsvr_document/archive-categorized-attachments.php:4
+msgid "Collapse list"
+msgstr ""
+
+#: ../template-parts/lsvr_document/archive-layout-categorized-attachments.php:17
+#: ../template-parts/lsvr_document/archive-layout-default.php:74
+msgid "There are no documents"
+msgstr ""
+
+#: ../template-parts/lsvr_document/attachments.php:8
+#: ../template-parts/lsvr_document/attachments.php:12
+msgid "Attachments"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-layout-default.php:61
+#: ../template-parts/lsvr_event/archive-layout-grid.php:68
+#: ../template-parts/lsvr_event/archive-layout-timeline.php:73
+msgid "Event Time"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-layout-default.php:62
+#: ../template-parts/lsvr_event/archive-layout-grid.php:69
+#: ../template-parts/lsvr_event/archive-layout-timeline.php:74
+#: ../template-parts/lsvr_event/single-date.php:70
+#, php-format
+msgid "%s - %s"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-layout-default.php:65
+#: ../template-parts/lsvr_event/archive-layout-grid.php:72
+#: ../template-parts/lsvr_event/archive-layout-timeline.php:77
+#: ../template-parts/lsvr_event/single-address.php:4
+msgid "Event Location"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-layout-default.php:66
+#: ../template-parts/lsvr_event/archive-layout-grid.php:73
+#: ../template-parts/lsvr_event/archive-layout-timeline.php:78
+#, php-format
+msgid "at %s"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-layout-default.php:93
+#: ../template-parts/lsvr_event/archive-layout-grid.php:108
+#: ../template-parts/lsvr_event/archive-layout-timeline.php:120
+msgid "No events matched your criteria"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-layout-grid.php:85
+#: ../template-parts/lsvr_event/archive-layout-timeline.php:101
+#: ../template-parts/lsvr_listing/archive-layout-grid.php:57
+msgid "More Info"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-pagination.php:26
+msgid "1"
+msgstr ""
+
+#: ../template-parts/lsvr_event/archive-pagination.php:37
+#: ../template-parts/lsvr_event/archive-pagination.php:57
+msgid "&hellip;"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-address.php:8
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-date.php:8
+msgid "Start"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-date.php:19
+#: ../template-parts/lsvr_event/single-date.php:42
+msgid "All-day Event"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-date.php:31
+msgid "End"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-date.php:57
+msgid "Date"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-date.php:68
+msgid "Time"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-info.php:5
+msgid "This event has ended"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-info.php:10
+msgid "Next Date"
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-upcoming-occurrences.php:5
+msgid "This is a recurring event."
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-upcoming-occurrences.php:5
+#, php-format
+msgid "Repeating every %s."
+msgstr ""
+
+#: ../template-parts/lsvr_event/single-upcoming-occurrences.php:10
+msgid "Upcoming Dates"
+msgstr ""
+
+#: ../template-parts/lsvr_gallery/archive-layout-default.php:60
+#: ../template-parts/lsvr_gallery/archive-layout-grid.php:67
+msgid "No galleries matched your criteria"
+msgstr ""
+
+#: ../template-parts/lsvr_gallery/archive-layout-grid.php:46
+msgid "Open Gallery"
+msgstr ""
+
+#: ../template-parts/lsvr_gallery/archive-post-meta.php:32
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../template-parts/lsvr_listing/archive-layout-default.php:82
+#: ../template-parts/lsvr_listing/archive-layout-grid.php:79
+msgid "No listings matched your criteria"
+msgstr ""
+
+#: ../template-parts/lsvr_listing/single-addressmap.php:6
+msgid "Address"
+msgstr ""
+
+#: ../template-parts/lsvr_listing/single-opening-hours.php:6
+msgid "Opening hours"
+msgstr ""
+
+#: ../template-parts/lsvr_person/archive-layout-default.php:90
+msgid "There are no person posts"
+msgstr ""
+
+#: ../template-parts/lsvr_person/contact-info.php:3
+msgid "Contact Information"
+msgstr ""
+
+#: ../template-parts/single-post-footer.php:8
+msgid "Tags"
+msgstr ""

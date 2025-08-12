@@ -1,0 +1,854 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LSVR Directory\n"
+"POT-Creation-Date: 2021-04-09 09:20+0200\n"
+"PO-Revision-Date: 2016-05-09 11:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/blocks-config.php:45
+msgid "LSVR Directory Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:46
+msgid "List of listing posts"
+msgstr ""
+
+#: ../inc/blocks-config.php:49 ../inc/blocks-config.php:63
+msgid "Settings"
+msgstr ""
+
+#: ../inc/blocks-config.php:59
+msgid "LSVR Featured Listing Widget"
+msgstr ""
+
+#: ../inc/blocks-config.php:60
+msgid "Single listing post"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:14
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:72
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:22
+msgid "Directory"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:15
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:79
+msgid "Listing"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:16
+#: ../inc/classes/lsvr-cpt-listing.php:17
+#: ../inc/classes/lsvr-cpt-listing.php:19
+msgid "Add New Listing"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:18
+msgid "Edit Listing"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:20
+msgid "View Listing"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:21
+msgid "Search listings"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:22
+msgid "No listings found"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:23
+msgid "No listings found in trash"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:43
+#: ../inc/classes/lsvr-cpt-listing.php:57
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:22
+msgid "Listing Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:44
+msgid "Listing Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:45
+msgid "Search Listing Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:46
+msgid "Popular Listing Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:47
+msgid "All Listing Categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:48
+msgid "Parent Listing Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:49
+msgid "Parent Listing Category:"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:50
+msgid "Edit Listing Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:51
+msgid "Update Listing Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:52
+msgid "Add New Listing Category"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:53
+msgid "New Listing Category Name"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:54
+msgid "Separate listing categories by comma"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:55
+msgid "Add or remove listing categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:56
+msgid "Choose from the most used listing categories"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:79
+#: ../inc/classes/lsvr-cpt-listing.php:93
+msgid "Listing Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:80
+msgid "Listing Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:81
+msgid "Search Listing Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:82
+msgid "Popular Listing Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:83
+msgid "All Listing Tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:84
+msgid "Parent Listing Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:85
+msgid "Parent Listing Tag:"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:86
+msgid "Edit Listing Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:87
+msgid "Update Listing Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:88
+msgid "Add New Listing Tag"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:89
+msgid "New Listing Tag Name"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:90
+msgid "Separate listing tags by comma"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:91
+msgid "Add or remove tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:92
+msgid "Choose from the most used listing tags"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:132
+msgid "Listing Settings"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:140
+msgid "Locate Listing on Map"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:141
+msgid "Don't forget to set your maps provider under Customizer / Map Settings for map functionality to work."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:143
+msgid "Do Not Show On Map"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:144
+msgid "Locate via Latitude and Longitude (recommended)"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:145
+msgid "Locate via Address"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:155
+msgid "Latitude & Longitude"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:156
+msgid "For example: 40.751597, -73.982243."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:167
+msgid "Exact Address"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:168
+msgid "For example: 216 W 44th St, New York, NY 10036, US."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:179
+#: ../inc/classes/lsvr-cpt-listing.php:609
+#: ../templates/widgets/listing-featured.php:32
+#: ../templates/widgets/listing-list.php:38
+msgid "Address"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:180
+msgid "Displayed in listing details (it won't be used to locate listing on the map)."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:194
+msgid "Phone Number"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:195
+#: ../inc/classes/lsvr-cpt-listing.php:204
+#: ../inc/classes/lsvr-cpt-listing.php:212
+#: ../inc/classes/lsvr-cpt-listing.php:220
+msgid "Displayed in listing details."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:203 ../inc/core-functions.php:245
+msgid "Fax"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:211
+msgid "Email Address"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:219 ../inc/core-functions.php:251
+msgid "Website"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:227
+msgid "Custom Contact 1 Icon"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:228
+#: ../inc/classes/lsvr-cpt-listing.php:332
+msgid "Add icon class here. Please refer to the documentation to learn more about icons."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:235
+msgid "Custom Contact 1 Label"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:236
+msgid "You can make the label clickable using a simple HTML like this: &lt;a href=\"https://example.com\"&gt;label&lt;/a&gt;"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:243
+msgid "Custom Contact 1 Title"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:244
+msgid "Briefly describe the purpose of this information (e.g.: \"Mobile phone\"). Very important for screen reader users."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:251
+msgid "Custom Contact 2 Icon"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:258
+msgid "Custom Contact 2 Label"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:265
+msgid "Custom Contact 2 Title"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:272
+msgid "Custom Contact 3 Icon"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:279
+msgid "Custom Contact 3 Label"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:286
+msgid "Custom Contact 3 Title"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:299 ../inc/core-functions.php:299
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:300
+msgid "Twitter profile URL."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:307 ../inc/core-functions.php:300
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:308
+msgid "Facebook profile URL."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:315 ../inc/core-functions.php:301
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:316
+msgid "Instagram profile URL."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:323 ../inc/core-functions.php:302
+msgid "Yelp"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:324
+msgid "Yelp profile URL."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:331
+msgid "Custom Social Link 1 Icon"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:339
+msgid "Custom Social Link 1 URL"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:340
+msgid "Absolute URL to your social profile."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:347
+msgid "Custom Social Link 1 Label"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:348
+msgid "This label will appear when you hover over the icon."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:355
+msgid "Custom Social Link 2 Icon"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:362
+msgid "Custom Social Link 2 URL"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:369
+msgid "Custom Social Link 2 Label"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:376
+msgid "Custom Social Link 3 Icon"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:383
+msgid "Custom Social Link 3 URL"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:390
+msgid "Custom Social Link 3 Label"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:403
+msgid "Opening Hours"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:404
+msgid "Choose method for inserting the opening hours."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:406
+msgid "No opening hours"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:407
+msgid "Select hours"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:408
+msgid "Add hours in custom format"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:417
+msgid "Select Opening Hours"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:418
+msgid "You can change the time format displayed on the site under Settings / General."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:429
+msgid "Opening Hours Note"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:430
+msgid "Add a note to opening hours."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:441
+msgid "Custom Format for Opening Hours"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:442
+msgid "You can use STRONG HTML tag for formatting."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:458
+msgid "Listing Gallery"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:466
+msgid "You can add some additional images for this listing which will be displayed on its detail page."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:468
+msgid "Manage Gallery Images"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:480
+msgid "Listing Metadata"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:481
+msgid "Schema.org metadata. More info:"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:491
+msgid "Enable Metadata"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:499
+msgid "Business Type"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:501
+msgid "General Local Business"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:502
+msgid "Animal Shelter"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:503
+msgid "Automotive Business"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:504
+msgid "Child Care"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:505
+msgid "Dentist"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:506
+msgid "Dry Cleaning Or Laundry"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:507
+msgid "Emergency Service"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:508
+msgid "Employment Agency"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:509
+msgid "Entertainment Business"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:510
+msgid "Financial Service"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:511
+msgid "Food Establishment"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:512
+msgid "Government Office"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:513
+msgid "Health And Beauty Business"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:514
+msgid "Home And Construction Business"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:515
+msgid "Internet Cafe"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:516
+msgid "Legal Service"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:517
+msgid "Library"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:518
+msgid "Lodging Business"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:519
+msgid "Professional Service"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:520
+msgid "Radio Station"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:521
+msgid "Real Estate Agent"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:522
+msgid "Recycling Center"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:523
+msgid "Self Storage"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:524
+msgid "Shopping Center"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:525
+msgid "Sports Activity Location"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:526
+msgid "Store"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:527
+msgid "Television Station"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:528
+msgid "Tourist Information Center"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:529
+msgid "Travel Agency"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:542
+msgid "Country"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:543
+msgid "For example: USA. You can also provide the two-letter country code. For example: US, DE, FR."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:554
+msgid "Locality"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:555
+msgid "For example: Mountain View."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:566
+msgid "Region"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:567
+msgid "For example: CA."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:579
+msgid "Postal Code"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:580
+msgid "For example: 94043."
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:591
+msgid "Street Address"
+msgstr ""
+
+#: ../inc/classes/lsvr-cpt-listing.php:592
+msgid "For example: 1600 Amphitheatre Pkwy."
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:12
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:16
+msgid "LSVR Directory"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:17
+msgid "Archive Slug"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:22
+msgid "Category Slug"
+msgstr ""
+
+#: ../inc/classes/lsvr-permalink-settings-directory.php:27
+msgid "Tag Slug"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:68
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:70
+msgid "Title"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:69
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:71
+msgid "Title of this section."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:70
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:22
+msgid "Featured Listing"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:80
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:26
+msgid "Choose listing to display."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:89
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:119
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:32
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:53
+msgid "Display Address"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:98
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:128
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:37
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:58
+msgid "Display Category"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:107
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:42
+msgid "Display Excerpt"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:116
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:137
+msgid "More Link Label"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:117
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:138
+msgid "Link to directory archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:118
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:139
+msgid "More listings"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:126
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:147
+msgid "Unique ID"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-featured-widget.php:127
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:148
+msgid "You can use this ID to style this specific element with custom CSS, for example."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:81
+#: ../templates/widgets/listing-featured.php:41
+#: ../templates/widgets/listing-list.php:47
+msgid "Category"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:82
+msgid "Display listings from a specific category."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:90
+msgid "Limit"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:91
+msgid "How many listings to display."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:92
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:35
+msgid "All"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:101
+msgid "Order"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:102
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:40
+msgid "Order of listing posts."
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:104
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:43
+msgid "Default"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:105
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:44
+msgid "By date, newest first"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:106
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:45
+msgid "By date, oldest first"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:107
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:46
+msgid "By title, ascending"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:108
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:47
+msgid "By title, descending"
+msgstr ""
+
+#: ../inc/classes/shortcodes/lsvr-shortcode-listing-list-widget.php:109
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:29
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:48
+msgid "Random"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:16
+msgid "LSVR Directory Listing Categories"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:17
+msgid "List of Listing categories"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-categories.php:20
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:20
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:20
+msgid "Title:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:16
+msgid "LSVR Featured Directory Listing"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:17
+msgid "Single directory Listing post"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:25
+msgid "Listing:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:47
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:63
+msgid "More Button Label:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:48
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:64
+msgid "Link to listing post archive. Leave blank to hide."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-featured.php:50
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:66
+msgid "More Listings"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:17
+msgid "List of Directory listing posts"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:25
+msgid "Category:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:26
+msgid "Display listings only from a certain category."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:29
+msgid "None"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:32
+msgid "Limit:"
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:33
+msgid "Number of listings to display."
+msgstr ""
+
+#: ../inc/classes/widgets/lsvr-widget-listing-list.php:39
+msgid "Order:"
+msgstr ""
+
+#: ../inc/core-functions.php:233
+msgid "Email"
+msgstr ""
+
+#: ../inc/core-functions.php:239
+msgid "Phone"
+msgstr ""
+
+#: ../inc/geocode-listing.php:199
+msgid "Geocoding request failed"
+msgstr ""
+
+#: ../templates/widgets/listing-featured.php:42
+#: ../templates/widgets/listing-list.php:48
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: ../templates/widgets/listing-featured.php:68
+#: ../templates/widgets/listing-list.php:81
+msgid "There are no listings"
+msgstr ""
